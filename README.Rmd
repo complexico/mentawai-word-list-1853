@@ -1,0 +1,25 @@
+---
+output: github_document
+author: 'Gede Primahadi Wijaya Rajeg <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a> </br>*Centre for Interdisciplinary Research on the Humanities and Social Sciences* (CIRHSS) & *CompLexico* research group, Udayana University'
+bibliography: ["vrosenberg1853.bib"]
+csl: unified-style-sheet-for-linguistics.csl
+link-citations: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Overview
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Repository for the digitised word list of Mentawai in von Rosenberg [-@von_rosenberg_mentawei-eilanden_1853]. It includes codes to process the data.
+
+# References
