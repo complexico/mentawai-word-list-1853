@@ -1,35 +1,17 @@
 GLOSS	NUMBER	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
 go	1	695	GO	2
-#<<<				
 stand	2	1442	STAND	2
-stand	2	570	STAND UP	2
-#>>>				
-#<<<				
 walk	3	1443	WALK	2
-walk	3	2979	WALK (MANNER)	2
-#>>>				
-#<<<				
 sit	4	1416	SIT	2
-sit	4	1649	SIT DOWN	2
-#>>>				
 come	5	1446	COME	2
 stay	6	987	REMAIN	2
-#<<<				
 open	7	1156	OPEN	2
-open	7	3235	OPEN (STATE)	2
-#>>>				
-#<<<				
 give	8	1447	GIVE	2
-give	8	196	DONATE	2
-#>>>				
 sell	9	1571	SELL	2
 buy	10	1869	BUY	2
 want	11	1784	WANT	2
 see	12	1409	SEE	2
-#<<<				
 make	13	734	MAKE	2
-make	13	2575	DO OR MAKE	2
-#>>>				
 search	14	1468	LOOK FOR	2
 speak	15	1623	SPEAK	2
 laugh	16	1355	LAUGH	2
