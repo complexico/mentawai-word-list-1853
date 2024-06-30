@@ -17,97 +17,44 @@ speak	15	1623	SPEAK	2
 laugh	16	1355	LAUGH	2
 cry	17	1839	CRY	2
 eat	18	1336	EAT	2
-#<<<				
-drink	19	731	BEVERAGE	2
 drink	19	1401	DRINK	2
-#>>>				
 cooking	20	1100	COOK (SOMETHING)	2
-#<<<				
 cut	21	1432	CUT	2
-cut	21	2156	CUT (WITH KNIFE)	2
-#>>>				
-hitting	22		???	
+hitting	22	1433	HIT	
 dare	23	1779	DARE	2
 kill	24	1417	KILL	2
-#<<<				
 sleep	25	1585	SLEEP	2
-sleep	25	2972	SLEEP (STATE)	2
-#>>>				
-#<<<				
-dream	26	1920	DREAM (SOMETHING)	2
-dream	26	2455	DREAMING OR DREAM	2
 dream	26	2374	DREAM	2
-#>>>				
 beg	27	3534	BEG	2
 exchange	28	2509	EXCHANGE	2
-#<<<				
-love	29	3834	LOVE (AFFECTION)	2
 love	29	923	LOVE	2
-#>>>				
 wish	30	1784	WANT	2
 sew	31	1457	SEW	2
 climb	32	1102	CLIMB	2
-read and write	33		???	
-#<<<				
-fear	34	1419	FEAR (BE AFRAID)	2
+read and write	33			
 fear	34	781	FEAR (FRIGHT)	2
-#>>>				
-#<<<				
-fight	35	3880	FIGHT (COMBAT)	2
 fight	35	1423	FIGHT	2
-fight	35	2902	BRAWL (FIGHT)	2
-#>>>				
 tattoo	36	68	TATTOO	2
 steal	37	713	STEAL	2
-#<<<				
-lie	38	1411	LIE (REST)	2
-lie	38	215	LIE DOWN	2
-lie	38	601	LIE (MISLEAD)	2
 lie	38	2826	LIE (FALSEHOOD)	2
-#>>>				
-rowing	39		???	
-#<<<				
-work	40	984	WORK (LABOUR)	2
+rowing	39			
 work	40	2281	WORKING OR WORK	2
-work	40	1086	WORK (ACTIVITY)	2
-#>>>				
-#<<<				
-think	41	1415	THINK (REFLECT)	2
 think	41	2271	THINK	2
-#>>>				
-#<<<				
-smell	42	1586	SMELL (PERCEIVE)	2
-smell	42	1587	SMELL (STINK)	2
 smell	42	2124	SMELL	2
-smell	42	3704	ODOR (SMELL)	2
-#>>>				
-#<<<				
-tie	43	3711	TIE (NOUN)	2
 tie	43	1917	TIE	2
-tie	43	760	KNOT	2
-#>>>				
 marry	44	203	MARRY	2
 greet	45	3552	GREET	2
 swim	46	1439	SWIM	2
-archery	47		???	
-#<<<				
+archery	47			
 dance	48	1879	DANCE	2
-dance	48	3472	DANCE (MOVEMENT)	2
-#>>>				
 sing	49	1261	SING	2
-diving	50		???	
+diving	50	119	DIVE	
 fishing	51	2638	FISHING	2
 forget	52	1523	FORGET	2
-#<<<				
 ask	53	1309	ASK (INQUIRE)	2
-ask	53	1828	ASK (REQUEST)	2
-#>>>				
 bring	54	692	BRING	2
 wait	55	1590	WAIT (FOR)	2
-#<<<				
 can	56	972	BE ABLE	2
-can	56	1051	CAN	2
-#>>>				
 its	57	2092	HIS OR HER	4
 become	58	1990	BECOME	2
 alive	59	1422	BE ALIVE	2
@@ -116,77 +63,29 @@ large	61	1202	BIG	2
 small	62	1246	SMALL	2
 straight	63	1404	STRAIGHT	2
 crooked	64	297	CROOKED	2
-#<<<				
 long	65	1203	LONG	2
-long	65	3473	LONG (FOR SOMETHING)	2
-long	65	418	FOR A LONG TIME	2
-#>>>				
 short	66	1645	SHORT	2
 heavy	67	1210	HEAVY	2
 lying	68	215	LIE DOWN	2
-#<<<				
-wide	69	2531	BROAD	2
 wide	69	1243	WIDE	2
-wide	69	1244	THICK	2
-#>>>				
-#<<<				
-high	70	2790	HIGH OR TALL	2
-high	70	3347	HIGH OR UP	2
 high	70	1265	HIGH	2
-#>>>				
-#<<<				
 low	71	721	LOW	2
-low	71	3348	LOW (POSITION OR HEIGHT)	2
-low	71	2191	LOW (HEIGHT)	2
-#>>>				
 deep	72	1593	DEEP	2
-#<<<				
-fine	73	218	FINE (PENALTY)	2
 fine	73	2157	FINE OR THIN	2
-#>>>				
 coarse	74	2151	COARSE	2
-#<<<				
-clean	75	2235	CLEAN (SOMETHING)	2
 clean	75	704	CLEAN	2
-#>>>				
 ugly	76	1548	UGLY	2
 far	77	1406	FAR	2
 near	78	1942	NEAR	2
-#<<<				
 thick	79	1244	THICK	2
-thick	79	2239	DENSE	2
-thick	79	2151	COARSE	2
-#>>>				
-#<<<				
 thin	80	2308	THIN	2
-thin	80	2249	THIN (OF SHAPE OF OBJECT)	2
-thin	80	2219	LEAN (MEAT)	2
-thin	80	1400	THIN (SLIM)	2
-thin	80	2305	THIN (OF HAIR AND THREAD)	2
-thin	80	2157	FINE OR THIN	2
-thin	80	2306	THIN (OF LEAF AND CLOTH)	2
-#>>>				
 sweet	81	717	SWEET	2
-#<<<				
 sour	82	1906	SOUR	2
-sour	82	1923	ROUGH	2
-#>>>				
 bitter	83	887	BITTER	2
-#<<<				
 hard	84	1884	HARD	2
-hard	84	584	DIFFICULT	2
-#>>>				
 soft	85	1856	SOFT	2
-#<<<				
-hot	86	2272	HOT OR WARM	2
 hot	86	1286	HOT	2
-#>>>				
-#<<<				
 cold	87	1287	COLD	2
-cold	87	2932	COLD (CHILL)	2
-cold	87	2483	COLD (OF WEATHER)	2
-cold	87	102	COMMON COLD (DISEASE)	2
-#>>>				
 diligently	88		???	
 lazy	89	1564	LAZY	2
 stinking	90	42	STINKING	2
@@ -325,32 +224,19 @@ turtle	169	895	TORTOISE	2
 #>>>				
 crocodile	170	1857	CROCODILE	2
 bird	171	937	BIRD	2
-bird's egg	172		???	
+bird's egg	172	744	EGG	
 fowl	173	265	FOWL	2
 heron	174	758	HERON	2
-pericite	175		???	
-wood pigeon	176		???	
+pericite	175			
+wood pigeon	176	937	BIRD	
 bird of prey	177	1905	EAGLE	4
-bejo	178		???	
+bejo	178			
 monkey	179	1350	MONKEY	2
-#<<<				
 deer	180	1936	DEER	2
-deer	180	3826	ROE DEER	2
-#>>>				
 dog	181	2009	DOG	2
-#<<<				
 pig	182	1337	PIG	2
-pig	182	2564	PIGLET	2
-#>>>				
-#<<<				
 rat	183	1490	RAT	2
-rat	183	1491	MOUSE	2
-rat	183	2139	MUROID (MOUSE OR RAT)	2
-#>>>				
-#<<<				
-cat	184	3825	MALE CAT	2
 cat	184	1208	CAT	2
-#>>>				
 human	185	683	PERSON	2
 #<<<				
 man	186	683	PERSON	2
@@ -449,15 +335,12 @@ medicine	244	1372	MEDICINE	2
 tobacco	245	974	TOBACCO	2
 mirror	246	1171	MIRROR	2
 cotton	247	1850	COTTON	2
-glass beads	248		???	
+glass beads	248	1860	BEAD	
 scissors	249	356	SHEARS	2
 needle	250	1382	NEEDLE (FOR SEWING)	2
 axe	251	677	AXE	2
 gun	252	1566	GUN	2
-#<<<				
 load	253	1679	LOAD	2
-load	253	3669	LOAD (SOMETHING)	2
-#>>>				
 tomorrow	254	1329	TOMORROW	2
 frog	255	503	FROG	2
 iguana	256	1578	IGUANA	2
@@ -474,5 +357,37 @@ one hundred	266	1634	HUNDRED	2
 two hundred	267	2676	TWO HUNDRED	2
 nose	268	1221	NOSE	2
 sago	269	2270	SAGO	2
-shooting rifle	270		???	
-#	226/270	84%	
+shooting rifle	270	3881	PISTOL	
+#	226/270	84%		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
