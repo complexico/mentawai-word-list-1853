@@ -10,9 +10,18 @@ Sciences* (CIRHSS) & *CompLexico* research group, Udayana University
 <!-- badges: start -->
 <!-- badges: end -->
 
-Repository for the digitised word list of Mentawai in von Rosenberg
-([1853](#ref-von_rosenberg_mentawei-eilanden_1853)). It includes codes
-to process the data.
+Repository for the digitised word list of Mentawai presented in von
+Rosenberg ([1853: 428–433](#ref-von_rosenberg_mentawei-eilanden_1853)).
+It includes codes to process the data.
+
+The main data now has the [Concepticon](https://concepticon.clld.org)
+concept mapping.
+
+The repository also include digitised data of the comparative table on
+page 434.
+
+Further task is to create a codebook documenting the content of the main
+data.
 
 # References
 
