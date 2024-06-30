@@ -1,0 +1,302 @@
+ID	Dutch	English_DeepL2
+1	gaan	go
+2	staan	are
+3	loopen	run
+4	zitten	sit
+5	komen	come
+6	blijven	stay
+7	openen	open
+8	geven	give
+9	schenken	donate
+10	verkoopen	sell
+11	koopen	buy
+12	willen	want
+13	zien	see
+14	maken	make
+15	zoeken	search
+16	spreken	speak
+17	lagchen	lagchen
+18	huilen	cry
+19	eten	food
+20	drinken	drink
+21	koken	cooking
+22	snijden	cut
+23	slaan	hit
+24	durven	dare
+25	dooden	dead
+26	slapen	sleep
+27	droomen	dreams
+28	smeeken	beg
+29	ruilen	exchange
+30	beminnen	love
+31	wenschen	wishes
+32	naaijen	naaijen
+33	klimmen	climb
+34	lezen en schrijven	reading and writing
+35	vreezen	dread
+36	vechten	fight
+37	tatouëren	tattoo
+38	stelen	steal
+39	leugen	lie
+40	roeijen	rowing
+41	werken	work
+42	denken	thinking
+43	ruiken	smell
+44	binden	bind
+45	huwen	marrying
+46	groeten	regards
+47	zwemmen	swimming
+48	boogschieten	archery
+49	dansen	dance
+50	zingen	sing
+51	duiken	diving
+52	visschen	fish
+53	vergeten	forgotten
+54	vragen	questions
+55	brengen	bring
+56	wachten	wait
+57	kunnen	can
+58	zijn	its
+59	worden	be
+60	levendig	vivid
+61	dood	dead
+62	groot	great
+63	klein	small
+64	regt	regt
+65	krom	crooked
+66	lang	long
+67	kort	short
+68	zwaar	heavy
+69	ligt	lies
+70	breed	wide
+71	hoog	high
+72	laag	low
+73	diep	deep
+74	fijn	fine
+75	grof	coarse
+76	schoon	clean
+77	leelijk	ugly
+78	verre	remote
+79	nabij	near
+80	dik	thick
+81	dun	thin
+82	zoet	sweet
+83	zuur	acid
+84	bitter	bitter
+85	hard	hard
+86	week	week
+87	heet	hot
+88	koud	cold
+89	naarstig	diligently
+90	lui	lazy
+91	stinkend	stinking
+92	genoeg	enough
+93	niet genoeg	not enough
+94	van binnen	within
+95	van buiten	outside
+96	vermoeid	tired
+97	stil	silent
+98	ziek	sick
+99	ja	yes
+100	neen	no
+101	ik	me
+102	gij	thou
+103	hij	he
+104	mijn	my
+105	zijn	its
+106	hier	here
+107	dit en dat	this and that
+108	zwart	black
+109	wit	white
+110	rood	red
+111	groen	green
+112	geel	yellow
+113	blaauw	blaauw
+114	klaar	ready
+115	donker	dark
+116	dag	hello
+117	nacht	night
+118	zon	sun
+119	maan	moon
+120	ster	star
+121	hemel	sky
+122	regen	rain
+123	wind	wind
+124	donder	thunder
+125	bliksem	lightning
+126	aarde	earth
+127	water	water
+128	vuur	fire
+129	rivier	river
+130	berg	mountain
+131	eiland	island
+132	steen	stone
+133	zeestrand	sea beach
+134	zand	sand
+135	zee	sea
+136	rots	rock
+137	vuursteen	flint
+138	yzer	yzer
+139	koper	copper
+140	gepolijst metaal	polished metal
+141	boom	tree
+142	kokosboom	coconut tree
+143	sagopalm	sago palm
+144	pinang	pinang
+145	nibong	nibong
+146	pisang	pisang
+147	suikerriet	sugar cane
+148	langkopalm	long-headed palm
+149	aroeboom	aroeboom
+150	kladdie	claddie
+151	obie	obie
+152	doerian	doerian
+153	citroenboom	lemon tree
+154	manggostan	manggostan
+155	spaansche peper	spanish pepper
+156	sirie	sirie
+157	bamboe	bamboo
+158	rotting	decay
+159	schulp	shell
+160	oester	oyster
+161	muskiet	mosquito
+162	bij	at
+163	honig	honey
+164	was	was
+165	mier	ant
+166	kreeft	lobster
+167	koraal	coral
+168	visch	fish
+169	slang	hose
+170	schildpad	turtle
+171	krokodil	crocodile
+172	vogel	bird
+173	vogelei	bird's egg
+174	hoen	hoen
+175	reiger	heron
+176	perikiet	perikite
+177	boschduif	wood pigeon
+178	roofvogel	raptor
+179	bejo	bejo
+180	aap	monkey
+181	hert	deer
+182	hond	dog
+183	varken	pig
+184	rat	rat
+185	kat	cat
+186	mensch	mensch
+187	man	man
+188	vrouw	woman
+189	kind	child
+190	vader	father
+191	moeder	mother
+192	zuster	sister
+193	broeder	brother
+194	vriend	friend
+195	hoofd	head
+196	haar	her
+197	voorhoofd	forehead
+198	oogen	eyes
+199	mond	mouth
+200	oor	ear
+201	tand	tooth
+202	tong	tongue
+203	hals	neck
+204	borst	chest
+205	buik	belly
+206	arm	arm
+207	hand	hand
+208	dij	thigh
+209	voet	foot
+210	teen	toe
+211	haarversiersel	hair ornament
+212	halsband	collar
+213	buikversiersel	belly ornament
+214	schaamgordel	pubic belt
+215	mannenhoed	men's hat
+216	vrouwenhoed	women's hat
+217	vrouwenkleed	women's dress
+218	boog	arch
+219	pijl	arrow
+220	pijlkoker	quiver
+221	schild	shield
+222	lans	lance
+223	sabel	saber
+224	dolkmes	dagger knife
+225	schietgeweer	shotgun
+226	oorlog	war
+227	kapmes	machete
+228	vijl	file
+229	plank	board
+230	hout	wood
+231	kano	canoe
+232	schip	ship
+233	roeispaan	oar
+234	harpoen	harpoon
+235	pan	pan
+236	huis	house
+237	dorp	village
+238	dak	roof
+239	duivel	devil
+240	vogellijm	bird glue
+241	boomolie	tree oil
+242	pijlvergif	arrow poison
+243	koperdraad	copper wire
+244	tin	tin
+245	medicijn	drug
+246	tabak	tobacco
+247	spiegel	mirror
+248	katoen	cotton
+249	glasparels	glass beads
+250	schaar	scissors
+251	naald	needle
+252	kist	box
+253	bijl	hatchet
+254	kanon	cannon
+255	lading	load
+256	morgen	tomorrow
+257	kikvorsch	frog
+258	leguaan	iguana
+259	duizendpoot	centipede
+260	begraafplaats	cemetery
+261	tien	ten
+262	twintig	twenty
+263	dertig	thirty
+264	veertig	forty
+265	zeventig	seventy
+266	tachtig	eighty
+267	negentig	ninety
+268	een honderd	a hundred
+269	twee honderd	two hundred
+270	mensch	mensch
+271	mensch	mensch
+272	vrouw	woman
+273	vrouw	woman
+274	kind	child
+275	kind	child
+276	neus	nose
+277	neus	nose
+278	mond	mouth
+279	mond	mouth
+280	oor	ear
+281	oor	ear
+282	hals	neck
+283	hals	neck
+284	borst	chest
+285	borst	chest
+286	dij	thigh
+287	dij	thigh
+288	voet	foot
+289	voet	foot
+290	vader	father
+291	vader	father
+292	moeder	mother
+293	moeder	mother
+294	sago	sago
+295	sago	sago
+296	huis	house
+297	huis	house
+298	water	water
+299	water	water
+300	schietgeweer	shotgun
+301	schietgeweer	shotgun
