@@ -8,6 +8,8 @@ Sciences* (CIRHSS) & *CompLexico* research group, Udayana University
 # Overview
 
 <!-- badges: start -->
+
+[![](https://img.shields.io/badge/doi-10.17605/OSF.IO/PU4VG-lightblue.svg)](https://doi.org/10.17605/OSF.IO/PU4VG)
 <!-- badges: end -->
 
 Repository for the digitised word list of Mentawai presented in von

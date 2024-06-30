@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 # Overview
 
 <!-- badges: start -->
+[![](https://img.shields.io/badge/doi-10.17605/OSF.IO/PU4VG-lightblue.svg)](https://doi.org/10.17605/OSF.IO/PU4VG)
 <!-- badges: end -->
 
 Repository for the digitised word list of Mentawai presented in von Rosenberg [-@von_rosenberg_mentawei-eilanden_1853, 428-433]. It includes codes to process the data. 
