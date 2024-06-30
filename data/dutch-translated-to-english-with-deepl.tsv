@@ -1,13 +1,13 @@
 ID	Dutch	English_DeepL2
 1	gaan	go
-2	staan	are
+2	staan	stand
 3	loopen	run
 4	zitten	sit
 5	komen	come
 6	blijven	stay
 7	openen	open
 8	geven	give
-9	schenken	donate
+9	schenken	gift
 10	verkoopen	sell
 11	koopen	buy
 12	willen	want
@@ -15,7 +15,7 @@ ID	Dutch	English_DeepL2
 14	maken	make
 15	zoeken	search
 16	spreken	speak
-17	lagchen	lagchen
+17	lagchen	laugh
 18	huilen	cry
 19	eten	food
 20	drinken	drink
@@ -30,7 +30,7 @@ ID	Dutch	English_DeepL2
 29	ruilen	exchange
 30	beminnen	love
 31	wenschen	wishes
-32	naaijen	naaijen
+32	naaijen	sewing
 33	klimmen	climb
 34	lezen en schrijven	reading and writing
 35	vreezen	dread
@@ -50,15 +50,15 @@ ID	Dutch	English_DeepL2
 49	dansen	dance
 50	zingen	sing
 51	duiken	diving
-52	visschen	fish
+52	visschen	fishing
 53	vergeten	forgotten
-54	vragen	questions
+54	vragen	ask
 55	brengen	bring
 56	wachten	wait
 57	kunnen	can
 58	zijn	its
-59	worden	be
-60	levendig	vivid
+59	worden	become
+60	levendig	alive
 61	dood	dead
 62	groot	great
 63	klein	small
@@ -67,7 +67,7 @@ ID	Dutch	English_DeepL2
 66	lang	long
 67	kort	short
 68	zwaar	heavy
-69	ligt	lies
+69	ligt	lying
 70	breed	wide
 71	hoog	high
 72	laag	low
@@ -76,12 +76,12 @@ ID	Dutch	English_DeepL2
 75	grof	coarse
 76	schoon	clean
 77	leelijk	ugly
-78	verre	remote
+78	verre	far
 79	nabij	near
 80	dik	thick
 81	dun	thin
 82	zoet	sweet
-83	zuur	acid
+83	zuur	sour
 84	bitter	bitter
 85	hard	hard
 86	week	week
@@ -92,7 +92,7 @@ ID	Dutch	English_DeepL2
 91	stinkend	stinking
 92	genoeg	enough
 93	niet genoeg	not enough
-94	van binnen	within
+94	van binnen	inside
 95	van buiten	outside
 96	vermoeid	tired
 97	stil	silent
@@ -103,7 +103,7 @@ ID	Dutch	English_DeepL2
 102	gij	thou
 103	hij	he
 104	mijn	my
-105	zijn	its
+105	zijn	his
 106	hier	here
 107	dit en dat	this and that
 108	zwart	black
@@ -114,7 +114,7 @@ ID	Dutch	English_DeepL2
 113	blaauw	blaauw
 114	klaar	ready
 115	donker	dark
-116	dag	hello
+116	dag	day
 117	nacht	night
 118	zon	sun
 119	maan	moon
@@ -148,7 +148,7 @@ ID	Dutch	English_DeepL2
 147	suikerriet	sugar cane
 148	langkopalm	long-headed palm
 149	aroeboom	aroeboom
-150	kladdie	claddie
+150	kladdie	kladdie
 151	obie	obie
 152	doerian	doerian
 153	citroenboom	lemon tree
@@ -167,7 +167,7 @@ ID	Dutch	English_DeepL2
 166	kreeft	lobster
 167	koraal	coral
 168	visch	fish
-169	slang	hose
+169	slang	snake
 170	schildpad	turtle
 171	krokodil	crocodile
 172	vogel	bird
@@ -176,7 +176,7 @@ ID	Dutch	English_DeepL2
 175	reiger	heron
 176	perikiet	perikite
 177	boschduif	wood pigeon
-178	roofvogel	raptor
+178	roofvogel	bird of prey
 179	bejo	bejo
 180	aap	monkey
 181	hert	deer
@@ -194,7 +194,7 @@ ID	Dutch	English_DeepL2
 193	broeder	brother
 194	vriend	friend
 195	hoofd	head
-196	haar	her
+196	haar	hair
 197	voorhoofd	forehead
 198	oogen	eyes
 199	mond	mouth
@@ -216,12 +216,12 @@ ID	Dutch	English_DeepL2
 215	mannenhoed	men's hat
 216	vrouwenhoed	women's hat
 217	vrouwenkleed	women's dress
-218	boog	arch
+218	boog	bow
 219	pijl	arrow
 220	pijlkoker	quiver
 221	schild	shield
 222	lans	lance
-223	sabel	saber
+223	sabel	sabre
 224	dolkmes	dagger knife
 225	schietgeweer	shotgun
 226	oorlog	war
@@ -243,15 +243,15 @@ ID	Dutch	English_DeepL2
 242	pijlvergif	arrow poison
 243	koperdraad	copper wire
 244	tin	tin
-245	medicijn	drug
+245	medicijn	medicine
 246	tabak	tobacco
 247	spiegel	mirror
 248	katoen	cotton
 249	glasparels	glass beads
 250	schaar	scissors
 251	naald	needle
-252	kist	box
-253	bijl	hatchet
+252	kist	chest
+253	bijl	axe
 254	kanon	cannon
 255	lading	load
 256	morgen	tomorrow
@@ -266,7 +266,7 @@ ID	Dutch	English_DeepL2
 265	zeventig	seventy
 266	tachtig	eighty
 267	negentig	ninety
-268	een honderd	a hundred
+268	een honderd	one hundred
 269	twee honderd	two hundred
 270	mensch	mensch
 271	mensch	mensch
