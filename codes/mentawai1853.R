@@ -46,3 +46,23 @@ mentawai1853 |>
   write_tsv("data/mentawai1853.tsv")
 mentawai1853 |>
   write_rds("data/mentawai1853.rds")
+
+# save the comparison table in p. 434 into .tsv
+# read_tsv("data/vrosenberg1853p434.csv") |> 
+#   write_tsv("data/vrosenberg1853p434.tsv")
+
+# split the comparison dialect word list and men's names
+mentawai1853 <- read_rds("data/mentawai1853.rds")
+
+mentawai1853 |> 
+  filter(Category == "word list") |> 
+  write_tsv("data/mentawai1853.tsv")
+mentawai1853 |> 
+  filter(Category == "word list") |> 
+  write_tsv("data/mentawai1853.rds")
+mentawai1853 |> 
+  filter(Category == "dialect-comparison") |> 
+  write_tsv("data/mentawai1853-dialect-comparison.tsv")
+mentawai1853 |> 
+  filter(Category == "men's names") |> 
+  write_tsv("data/mentawai1853-men-names.tsv")
