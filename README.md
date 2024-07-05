@@ -13,6 +13,8 @@ Udayana University
 
 <!-- badges: start -->
 
+[![CLDF
+validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation)
 [![](https://img.shields.io/badge/doi-10.17605/OSF.IO/PU4VG-lightblue.svg)](https://doi.org/10.17605/OSF.IO/PU4VG)
 <!-- badges: end -->
 
