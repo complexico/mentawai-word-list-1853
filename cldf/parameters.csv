@@ -1,0 +1,272 @@
+ID,Name,Concepticon_ID,Concepticon_Gloss,Number
+1_go,go,695,GO,1
+2_stand,stand,1442,STAND,2
+3_run,run,1519,RUN,3
+4_sit,sit,1416,SIT,4
+5_come,come,1446,COME,5
+6_stay,stay,987,REMAIN,6
+7_open,open,1156,OPEN,7
+8_give,give,1447,GIVE,8
+9_sell,sell,1571,SELL,9
+10_buy,buy,1869,BUY,10
+11_want,want,1784,WANT,11
+12_see,see,1409,SEE,12
+13_make,make,734,MAKE,13
+14_search,search,1468,LOOK FOR,14
+15_speak,speak,1623,SPEAK,15
+16_laugh,laugh,1355,LAUGH,16
+17_cry,cry,1839,CRY,17
+18_food,food,256,FOOD,18
+19_drink,drink,1401,DRINK,19
+20_cooking,cooking,1100,COOK (SOMETHING),20
+21_cut,cut,1432,CUT,21
+22_hit,hit,1433,HIT,22
+23_dare,dare,1779,DARE,23
+24_dead,dead,1625,DEAD,24
+25_sleep,sleep,1585,SLEEP,25
+26_dreams,dreams,2374,DREAM,26
+27_beg,beg,3534,BEG,27
+28_exchange,exchange,2509,EXCHANGE,28
+29_love,love,923,LOVE,29
+30_wishes,wishes,2960,LONGING (WISH),30
+31_sewing,sewing,1457,SEW,31
+32_climb,climb,1102,CLIMB,32
+33_readingandwriting,reading and writing,,<NA>,33
+34_dread,dread,781,FEAR (FRIGHT),34
+35_fight,fight,1423,FIGHT,35
+36_tattoo,tattoo,68,TATTOO,36
+37_steal,steal,713,STEAL,37
+38_lie,lie,2826,LIE (FALSEHOOD),38
+39_rowing,rowing,1848,QUARREL,39
+40_work,work,2281,WORKING OR WORK,40
+41_thinking,thinking,2271,THINK,41
+42_smell,smell,2124,SMELL,42
+43_bind,bind,1917,TIE,43
+44_marrying,marrying,203,MARRY,44
+45_regards,regards,3552,GREET,45
+46_swimming,swimming,1439,SWIM,46
+47_archery,archery,1172,SHOOT,47
+48_dance,dance,1879,DANCE,48
+49_sing,sing,1261,SING,49
+50_diving,diving,119,DIVE,50
+51_fishing,fishing,2638,FISHING,51
+52_forgotten,forgotten,1523,FORGET,52
+53_ask,ask,1309,ASK (INQUIRE),53
+54_bring,bring,692,BRING,54
+55_wait,wait,1590,WAIT (FOR),55
+56_can,can,972,BE ABLE,56
+57_its,its,2092,HIS OR HER,57
+58_become,become,1990,BECOME,58
+59_alive,alive,1422,BE ALIVE,59
+60_dead,dead,1625,DEAD,60
+61_great,great,1202,BIG,61
+62_small,small,1246,SMALL,62
+63_straight,straight,1404,STRAIGHT,63
+64_crooked,crooked,297,CROOKED,64
+65_long,long,1203,LONG,65
+66_short,short,1645,SHORT,66
+67_heavy,heavy,1210,HEAVY,67
+68_lying,lying,215,LIE DOWN,68
+69_wide,wide,1243,WIDE,69
+70_high,high,1265,HIGH,70
+71_low,low,721,LOW,71
+72_deep,deep,1593,DEEP,72
+73_fine,fine,2157,FINE OR THIN,73
+74_coarse,coarse,2151,COARSE,74
+75_clean,clean,704,CLEAN,75
+76_ugly,ugly,1548,UGLY,76
+77_far,far,1406,FAR,77
+78_near,near,1942,NEAR,78
+79_thick,thick,1244,THICK,79
+80_thin,thin,2308,THIN,80
+81_sweet,sweet,717,SWEET,81
+82_sour,sour,1906,SOUR,82
+83_bitter,bitter,887,BITTER,83
+84_hard,hard,1884,HARD,84
+85_soft,soft,1856,SOFT,85
+86_hot,hot,1286,HOT,86
+87_cold,cold,1287,COLD,87
+88_diligently,diligently,2077,DILIGENT,88
+89_lazy,lazy,1564,LAZY,89
+90_stinking,stinking,42,STINKING,90
+91_enough,enough,1881,ENOUGH,91
+92_notenough,not enough,2329,LACK (NOT HAVE),92
+93_inside,inside,1606,INSIDE,93
+94_outside,outside,762,OUTSIDE,94
+95_tired,tired,1757,TIRED,95
+96_silent,silent,48,BE SILENT,96
+97_sick,sick,1847,SICK,97
+98_yes,yes,1268,YES,98
+99_no,no,1269,NO,99
+100_me,me,2301,ME,100
+101_thou,thou,1215,THOU,101
+102_he,he,1211,HE,102
+103_my,my,2090,MY,103
+104_his,his,2473,HIS (GENITIVE OF HE),104
+105_here,here,136,HERE,105
+106_thisandthat,this and that,,<NA>,106
+107_black,black,163,BLACK,107
+108_white,white,1335,WHITE,108
+109_red,red,156,RED,109
+110_green,green,1425,GREEN,110
+111_yellow,yellow,1424,YELLOW,111
+112_blue,blue,837,BLUE,112
+113_ready,ready,790,READY,113
+114_dark,dark,706,DARK,114
+115_day,day,1225,DAY (NOT NIGHT),115
+116_night,night,1233,NIGHT,116
+117_sun,sun,1343,SUN,117
+118_moon,moon,1313,MOON,118
+119_star,star,1430,STAR,119
+120_sky,sky,1732,SKY,120
+121_rain,rain,2108,RAINING OR RAIN,121
+122_wind,wind,960,WIND,122
+123_thunder,thunder,1150,THUNDER,123
+124_lightning,lightning,1654,LIGHTNING,124
+125_earth,earth,1228,EARTH (SOIL),125
+126_water,water,948,WATER,126
+127_fire,fire,221,FIRE,127
+128_river,river,666,RIVER,128
+129_mountain,mountain,639,MOUNTAIN,129
+130_island,island,622,ISLAND,130
+131_stone,stone,1762,STONE (OF FRUIT),131
+132_seabeach,sea beach,3460,BEACH,132
+133_sand,sand,671,SAND,133
+134_sea,sea,1474,SEA,134
+135_rock,rock,668,ROCK,135
+136_flint,flint,857,STONE,136
+137_yzer,yzer,,<NA>,137
+138_copper,copper,1825,COPPER,138
+139_polishedmetal,polished metal,2244,METAL,139
+140_tree,tree,906,TREE,140
+141_coconuttree,coconut tree,147,COCONUT TREE,141
+142_sagopalm,sago palm,2372,SAGO PALM,142
+143_pinang,pinang,217,BETELNUT,143
+144_nibong,nibong,1181,PALM TREE,144
+145_pisang,pisang,1795,BANANA TREE,145
+146_sugarcane,sugar cane,146,SUGAR CANE,146
+147_longheadedpalm,long-headed palm,1181,PALM TREE,147
+148_arum,arum,,<NA>,148
+149_kladdie,kladdie,351,TARO,149
+150_obie,obie,410,YAM,150
+151_durian,durian,,<NA>,151
+152_lemontree,lemon tree,3091,LEMON,152
+153_manggostan,manggostan,,<NA>,153
+154_spanishpepper,spanish pepper,1385,PEPPER,154
+155_sirie,sirie,217,BETELNUT,155
+156_bamboo,bamboo,1927,BAMBOO,156
+157_decay,decay,2907,ROT,157
+158_shell,shell,598,SHELL,158
+159_oyster,oyster,2830,OYSTERS,159
+160_mosquito,mosquito,1509,MOSQUITO,160
+161_at,at,1461,AT,161
+162_honey,honey,942,HONEY,162
+163_wash,wash,1453,WASH,163
+164_ant,ant,587,ANT,164
+165_lobster,lobster,2397,LOBSTER,165
+166_coral,coral,3179,CORAL ROCK,166
+167_fish,fish,227,FISH,167
+168_snake,snake,730,SNAKE,168
+169_turtle,turtle,112,TURTLE,169
+170_crocodile,crocodile,1857,CROCODILE,170
+171_bird,bird,937,BIRD,171
+172_birdsegg,bird's egg,744,EGG,172
+173_fowl,fowl,265,FOWL,173
+174_heron,heron,758,HERON,174
+175_perikite,perikite,886,PARAKEET,175
+176_woodpigeon,wood pigeon,937,BIRD,176
+177_birdofprey,bird of prey,1905,EAGLE,177
+178_bejo,bejo,886,PARAKEET,178
+179_monkey,monkey,1350,MONKEY,179
+180_deer,deer,1936,DEER,180
+181_dog,dog,2009,DOG,181
+182_pig,pig,1337,PIG,182
+183_rat,rat,1490,RAT,183
+184_cat,cat,1208,CAT,184
+185_human,human,683,PERSON,185
+186_man,man,1554,MAN,186
+187_woman,woman,962,WOMAN,187
+188_child,child,2099,CHILD,188
+189_father,father,1217,FATHER,189
+190_mother,mother,1216,MOTHER,190
+191_sister,sister,1263,SISTER,191
+192_brother,brother,1262,BROTHER,192
+193_friend,friend,1325,FRIEND,193
+194_head,head,1256,HEAD,194
+195_hair,hair,1040,HAIR,195
+196_forehead,forehead,123,FOREHEAD,196
+197_eyes,eyes,1248,EYE,197
+198_mouth,mouth,674,MOUTH,198
+199_ear,ear,1247,EAR,199
+200_tooth,tooth,1380,TOOTH,200
+201_tongue,tongue,1205,TONGUE,201
+202_neck,neck,1333,NECK,202
+203_chest,chest,1465,BOX,203
+204_belly,belly,1251,BELLY,204
+205_arm,arm,1673,ARM,205
+206_hand,hand,1277,HAND,206
+207_thigh,thigh,471,UPPER LEG (THIGH),207
+208_foot,foot,1301,FOOT,208
+209_toe,toe,1389,TOE,209
+210_hairornament,hair ornament,917,ORNAMENT,210
+211_collar,collar,2012,COLLAR,211
+212_bellyornament,belly ornament,917,ORNAMENT,212
+213_pubicbelt,pubic belt,772,BELT,213
+214_menshat,men's hat,771,HAT,214
+215_womenshat,women's hat,771,HAT,215
+216_womensdress,women's dress,474,DRESS,216
+217_bow,bow,994,BOW,217
+218_arrow,arrow,977,ARROW,218
+219_quiver,quiver,995,QUIVER (FOR ARROWS),219
+220_shield,shield,1064,SHIELD,220
+221_lance,lance,945,SPEAR,221
+222_sabre,sabre,1535,SWORD,222
+223_daggerknife,dagger knife,1352,KNIFE,223
+224_shotgun,shotgun,3948,SHOTGUN,224
+225_war,war,935,WAR,225
+226_machete,machete,2680,MACHETE,226
+227_file,file,3407,FILE (TOOL),227
+228_board,board,1227,BOARD,228
+229_wood,wood,1803,WOOD,229
+230_canoe,canoe,1970,CANOE,230
+231_ship,ship,740,SHIP,231
+232_oar,oar,3137,OAR,232
+233_harpoon,harpoon,841,FISHING SPEAR,233
+234_pan,pan,31,PAN,234
+235_house,house,1252,HOUSE,235
+236_village,village,930,VILLAGE,236
+237_roof,roof,769,ROOF,237
+238_devil,devil,3917,DEVIL,238
+239_birdglue,bird glue,1069,GLUE,239
+240_treeoil,tree oil,2555,OIL (FROM PLANTS),240
+241_arrowpoison,arrow poison,655,POISON,241
+242_copperwire,copper wire,2631,WIRE,242
+243_tin,tin,893,TIN (METAL),243
+244_medicine,medicine,1372,MEDICINE,244
+245_tobacco,tobacco,974,TOBACCO,245
+246_mirror,mirror,1171,MIRROR,246
+247_cotton,cotton,1850,COTTON,247
+248_glassbeads,glass beads,1860,BEAD,248
+249_scissors,scissors,356,SHEARS,249
+250_needle,needle,1382,NEEDLE (FOR SEWING),250
+251_axe,axe,677,AXE,251
+252_cannon,cannon,3202,CANNON,252
+253_load,load,1679,LOAD,253
+254_tomorrow,tomorrow,1329,TOMORROW,254
+255_frog,frog,503,FROG,255
+256_iguana,iguana,1578,IGUANA,256
+257_centipede,centipede,1974,CENTIPEDE,257
+258_cemetery,cemetery,3284,GRAVEYARD,258
+259_ten,ten,1515,TEN,259
+260_twenty,twenty,1710,TWENTY,260
+261_thirty,thirty,1715,THIRTY,261
+262_forty,forty,1716,FORTY,262
+263_seventy,seventy,1721,SEVENTY,263
+264_eighty,eighty,1722,EIGHTY,264
+265_ninety,ninety,1724,NINETY,265
+266_onehundred,one hundred,1634,HUNDRED,266
+267_twohundred,two hundred,2676,TWO HUNDRED,267
+268_nose,nose,1221,NOSE,268
+269_sago,sago,2270,SAGO,269
+270_shotgun,shotgun,3948,SHOTGUN,270
+271_gift,gift,196,DONATE,271

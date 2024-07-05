@@ -1,6 +1,7 @@
 ---
 output: github_document
-author: 'Gede Primahadi Wijaya Rajeg <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a> </br>*Centre for Interdisciplinary Research on the Humanities and Social Sciences* (CIRHSS) & *CompLexico* research group, Udayana University'
+author: 'Gede Primahadi Wijaya Rajeg <a itemprop="sameAs" content="https://orcid.org/0000-0002-2047-8621" href="https://orcid.org/0000-0002-2047-8621" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a> </br>University of Oxford, UK; Centre for Interdisciplinary Research on the Humanities and Social Sciences (CIRHSS) & CompLexico research group, Udayana University'
+title: "CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853"
 bibliography: ["vrosenberg1853.bib"]
 csl: unified-style-sheet-for-linguistics.csl
 link-citations: true
@@ -21,12 +22,22 @@ knitr::opts_chunk$set(
 [![](https://img.shields.io/badge/doi-10.17605/OSF.IO/PU4VG-lightblue.svg)](https://doi.org/10.17605/OSF.IO/PU4VG)
 <!-- badges: end -->
 
-Repository for the digitised word list of Mentawai presented in von Rosenberg [-@von_rosenberg_mentawei-eilanden_1853, 428-433]. It includes codes to process the data. 
+This is a repository for the digitised Mentawai-Dutch word list presented in von Rosenberg [-@VonRosenberg1853, 428-433]. The practical motivation for this repository is as a practice to use the [`cldfbench`](https://pypi.org/project/cldfbench/) workflow in Python [@forkel_cldfbench_2023; @forkel_cldfbench_2020] to implement the Cross-Linguistic Data Format (CLDF) [@forkel_cross-linguistic_2018]. Another motivation is theoretical, namely to document this legacy data in a computer-readable format, supporting an on-going [research on the languages of the Barrier Islands, in Sumatra, Indonesia](https://www.indonesianlanguages.org/home/barrier-islands-languages/), extending the [Enggano language project](https://enggano.ling-phil.ox.ac.uk).
 
-The main data now has the [Concepticon](https://concepticon.clld.org) concept mapping.
+After a long trial and error before the successful conversion into CLDF, the next step is to practice how to handle the orthography via `cldfbench`, especially the Cross-Linguistic Transcription System (CLTS). The original dataset prior to CLDF conversion has included [orthography profile](https://github.com/complexico/mentawai-word-list-1853/blob/main/data/ortho-profile-mentawai1853.tsv), [segmentation and IPA transcription](https://github.com/complexico/mentawai-word-list-1853/blob/main/data/mentawai1853.tsv) using the `qlcData` R package [@moran_unicode_2018].
 
-The repository also include digitised data of the comparative table on page 434.
+I have mainly referred to tutorials by List [-@list_converting_2021] and Martinovic [-@martinovic_converting_2022], but also looking/playing around with codes provided in other CLDF datasets [e.g., @zgraggen_cldf_2021; @barlow_cldf_2023].
 
-Further task is to create a codebook documenting the content of the main data.
+## History
+
+Before the CLDF conversion using Python, the materials in this repository (inside the [data](https://github.com/complexico/mentawai-word-list-1853/tree/main/data) directory) were processed using R as an RStudio project (the R scripts are in the [codes](https://github.com/complexico/mentawai-word-list-1853/tree/main/codes) directory). 
+
+Additional curation performed on the original list includes:
+
+1. adding the English gloss of the Dutch (via DeepL translator using the `deeplr` R package [@zumbach_deeplr_2023])
+
+1. [mapping the gloss](https://github.com/complexico/mentawai-word-list-1853/blob/main/data/mentawai-gloss-mapped-to-edit_1853-270.tsv) into the Concepticon using `pyconcepticon` [@forkel_pyconcepticon_2022], following the tutorial in Tjuka [@tjuka_adding_2020].
+
+1. creating an [orthography profile](https://github.com/complexico/mentawai-word-list-1853/blob/main/data/ortho-profile-mentawai1853.tsv).
 
 # References
