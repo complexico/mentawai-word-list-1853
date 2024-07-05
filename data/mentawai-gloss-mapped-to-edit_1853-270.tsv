@@ -31,13 +31,13 @@ love	29	923	LOVE
 wishes	30	2960	LONGING (WISH)
 sewing	31	1457	SEW
 climb	32	1102	CLIMB
-reading and writing	33		
+reading and writing	33	0	<NA>
 dread	34	781	FEAR (FRIGHT)
 fight	35	1423	FIGHT
 tattoo	36	68	TATTOO
 steal	37	713	STEAL
 lie	38	2826	LIE (FALSEHOOD)
-rowing	39		
+rowing	39	1848	QUARREL
 work	40	2281	WORKING OR WORK
 thinking	41	2271	THINK
 smell	42	2124	SMELL
@@ -45,7 +45,7 @@ bind	43	1917	TIE
 marrying	44	203	MARRY
 regards	45	3552	GREET
 swimming	46	1439	SWIM
-archery	47		
+archery	47	1172	SHOOT
 dance	48	1879	DANCE
 sing	49	1261	SING
 diving	50	119	DIVE
@@ -104,7 +104,7 @@ he	102	1211	HE
 my	103	2090	MY
 his	104	2473	HIS (GENITIVE OF HE)
 here	105	136	HERE
-this and that	106		
+this and that	106	0	<NA>
 black	107	163	BLACK
 white	108	1335	WHITE
 red	109	156	RED
@@ -135,7 +135,7 @@ sand	133	671	SAND
 sea	134	1474	SEA
 rock	135	668	ROCK
 flint	136	857	STONE
-yzer	137		
+yzer	137	0	<NA>
 copper	138	1825	COPPER
 polished metal	139	2244	METAL
 tree	140	906	TREE
@@ -146,12 +146,12 @@ nibong	144	1181	PALM TREE
 pisang	145	1795	BANANA TREE
 sugar cane	146	146	SUGAR CANE
 long-headed palm	147	1181	PALM TREE
-arum	148		
+arum	148	0	<NA>
 kladdie	149	351	TARO
 obie	150	410	YAM
-durian	151		
+durian	151	0	<NA>
 lemon tree	152	3091	LEMON
-manggostan	153		
+manggostan	153	0	<NA>
 spanish pepper	154	1385	PEPPER
 sirie	155	217	BETELNUT
 bamboo	156	1927	BAMBOO

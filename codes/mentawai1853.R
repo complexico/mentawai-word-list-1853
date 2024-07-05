@@ -101,7 +101,10 @@ mentawai1853 <- mentawai1853 |>
   left_join(ipa$strings |> 
               select(-tokenized, -Mentawai),
             by = join_by(ID)) |> 
-  select(ID, Mentawai, Commons, IPA, Dutch, English, everything())
+  select(ID, Mentawai, Commons, IPA, Dutch, English, everything()) |> 
+  
+  # add the doculect for the CLDF purpose
+  mutate(Doculect = "Mentawai")
 
 # split the comparison dialect word list and men's names and save the respective files
 # mentawai1853 <- read_rds("data/mentawai1853.rds")
