@@ -33,6 +33,15 @@ Available online at https://www.digitale-sammlungen.de/en/view/bsb10433845?page=
 - **Segments:** 33 (3 BIPA errors, 3 CLTS sound class errors, 30 CLTS modified)
 - **Inventory size (avg):** 33.00
 
+# Contributors
+
+Name                 | GitHub user     | Description                          | Role
+---                  | ---             | ---                                  | ---
+Carl Benjamin Hermann von Rosenberg |                 |                                      | Author
+Gede Primahadi W. Rajeg       | @gederajeg       | maintainer, CLDF conversion, Concepticon mapping, Orthography profiling                           | Other
+
+
+
 ## CLDF Datasets
 
 The following CLDF datasets are available in [cldf](cldf):

@@ -5,8 +5,17 @@
         "cldf:Wordlist",
         "linguistics"
     ],
-    "creators": [],
-    "contributors": [],
+    "creators": [
+        {
+            "name": "Carl Benjamin Hermann von Rosenberg"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Gede Primahadi W. Rajeg",
+            "type": "Other"
+        }
+    ],
     "communities": [
         {
             "identifier": "lexibank"
