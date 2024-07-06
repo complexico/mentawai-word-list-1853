@@ -1,0 +1,3 @@
+Based on the [Rights Statement](https://www.digitale-sammlungen.de/en/details/bsb10433845) (presented down below in that page), this digitised journal has a [No Copyright-Non-commercial use only](https://rightsstatements.org/page/NoC-NC/1.0/?language=en) condition.
+
+Before the CLDF conversion using Python, the materials in this repository (inside the [data](https://github.com/complexico/mentawai-word-list-1853/tree/main/data) directory) were processed using R as an RStudio project (the R scripts are in the [codes](https://github.com/complexico/mentawai-word-list-1853/tree/main/codes) directory). The English gloss of the Dutch was generated via the DeepL translator using the [`deeplr` R package](https://cran.r-project.org/package=deeplr).
