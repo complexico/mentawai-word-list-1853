@@ -2,7 +2,7 @@
     "id": "barrier-islands-mentawai-wlist1853",
     "title": "CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853",
     "description": null,
-    "license": "CC-BY-NC-SA 4.0",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
     "url": "https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451",
     "citation": "Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403\u2013440."
 }

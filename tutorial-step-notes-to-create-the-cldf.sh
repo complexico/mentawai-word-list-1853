@@ -59,7 +59,7 @@ tree -v --charset utf-8
 cldfbench lexibank.makecldf cldfbench_barrier-islands-mentawai-wlist1853.py --glottolog "/Users/Primahadi/Documents/cldf_project/glottolog-glottolog-d9da5e2" --concepticon "/Users/Primahadi/Documents/cldf_project/concepticon/concepticon-data" --clts "/Users/Primahadi/Documents/cldf_project/cldf-clts-clts-6dc73af"
 
 # to create an orthography profile (with a guess to possible IPA form/phoneme) from the Form col. in cldf/forms.csv using pylexibank (cf. List (2021: section 6)): https://calc.hypotheses.org/2954
-cldfbench lexibank.init_profile cldfbench_barrier-islands-mentawai-wlist1853.py --clts "/Users/Primahadi/Documents/cldf_project/cldf-clts-clts-6dc73af"
+# cldfbench lexibank.init_profile cldfbench_barrier-islands-mentawai-wlist1853.py --clts "/Users/Primahadi/Documents/cldf_project/cldf-clts-clts-6dc73af"
 
 ## note on orthography workflow
 - # we could add an orthography profile file (orthography.tsv) in `etc` directory that we previously created using qlcData and manually edited (## ensure we already have the IPA match of the grapheme as well!)

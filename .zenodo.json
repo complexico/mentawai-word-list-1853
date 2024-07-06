@@ -7,20 +7,18 @@
     ],
     "creators": [
         {
-            "name": "Carl Benjamin Hermann von Rosenberg"
+            "name": "Gede Primahadi W. Rajeg"
         }
     ],
-    "contributors": [
-        {
-            "name": "Gede Primahadi W. Rajeg",
-            "type": "Other"
-        }
-    ],
+    "contributors": [],
     "communities": [
         {
             "identifier": "lexibank"
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403\u2013440.</p>\n</blockquote>"
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403\u2013440.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-NC-SA-4.0"
+    }
 }

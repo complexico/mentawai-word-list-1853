@@ -5,7 +5,7 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:identifier": "https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451",
     "dc:isVersionOf": null,
-    "dc:license": "CC-BY-NC-SA 4.0",
+    "dc:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from von Rosenberg's \"De Mentawei-Eilanden en Hunne Bewoners\" from 1853",
@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:complexico/mentawai-word-list-1853",
             "rdf:type": "prov:Entity",
-            "dc:created": "774ff3f",
+            "dc:created": "1e036fa",
             "dc:title": "Repository"
         },
         {

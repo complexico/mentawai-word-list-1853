@@ -2,9 +2,9 @@
     "by_language": {
         "Mentawai": {
             "bipa_errors": [
+                "t\u0361\u0292",
                 "<<\u00eb>>",
-                "<<->>",
-                "t\u0361\u0292"
+                "<<->>"
             ],
             "general_errors": 18,
             "replacements": {
@@ -100,9 +100,9 @@
                 ]
             },
             "sclass_errors": [
+                "t\u0361\u0292",
                 "<<\u00eb>>",
-                "<<->>",
-                "t\u0361\u0292"
+                "<<->>"
             ],
             "segments": {
                 "+": 1,
@@ -251,9 +251,9 @@
         ],
         "bad_words_count": 15,
         "bipa_errors": [
+            "t\u0361\u0292",
             "<<\u00eb>>",
-            "<<->>",
-            "t\u0361\u0292"
+            "<<->>"
         ],
         "general_errors": 18,
         "invalid_words": [],
@@ -352,9 +352,9 @@
             ]
         },
         "sclass_errors": [
+            "t\u0361\u0292",
             "<<\u00eb>>",
-            "<<->>",
-            "t\u0361\u0292"
+            "<<->>"
         ],
         "segments": {
             "+": 1,

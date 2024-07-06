@@ -1,5 +1,9 @@
 # CLDF dataset derived from von Rosenberg's "De Mentawei-Eilanden en Hunne Bewoners" from 1853
 
+<!-- badges: start -->
+[![CLDF validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation)
+<!-- badges: end -->
+
 ## How to cite
 
 If you use these data please cite
@@ -10,9 +14,16 @@ If you use these data please cite
 ## Description
 
 
-This dataset is licensed under a CC-BY-NC-SA 4.0 license
+This dataset is licensed under a https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en license
 
 Available online at https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451
+
+## Notes
+
+Based on the [Rights Statement](https://www.digitale-sammlungen.de/en/details/bsb10433845) (presented down below in that page), this digitised journal has a [No Copyright-Non-commercial use only](https://rightsstatements.org/page/NoC-NC/1.0/?language=en) condition.
+
+Before the CLDF conversion using Python, the materials in this repository (inside the [data](https://github.com/complexico/mentawai-word-list-1853/tree/main/data) directory) were processed using R as an RStudio project (the R scripts are in the [codes](https://github.com/complexico/mentawai-word-list-1853/tree/main/codes) directory). The English gloss of the Dutch was generated via the DeepL translator using the [`deeplr` R package](https://cran.r-project.org/package=deeplr).
+
 
 ## Statistics
 
@@ -37,8 +48,7 @@ Available online at https://www.digitale-sammlungen.de/en/view/bsb10433845?page=
 
 Name                 | GitHub user     | Description                          | Role
 ---                  | ---             | ---                                  | ---
-Carl Benjamin Hermann von Rosenberg |                 |                                      | Author
-Gede Primahadi W. Rajeg       | @gederajeg       | maintainer, CLDF conversion, Concepticon mapping, Orthography profiling                           | Other
+Gede Primahadi W. Rajeg       | @gederajeg       | digitisation, code, CLDF conversion, Concepticon mapping, Orthography profiling                           | Maintainer
 
 
 

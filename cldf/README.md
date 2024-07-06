@@ -11,9 +11,9 @@ property | value
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Rosenberg, Carl Benjamin Hermann von. 1853. De Mentawei-Eilanden en Hunne Bewoners. Tijdschrift voor Indische Taal-, Land- en Volkenkunde 1. 403–440.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451
-[dc:license](http://purl.org/dc/terms/license) | CC-BY-NC-SA 4.0
+[dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by-nc-sa/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:complexico/mentawai-word-list-1853
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:complexico/mentawai-word-list-1853/tree/774ff3f">git@github.com:complexico/mentawai-word-list-1853 774ff3f</a></li><li><a href="glottolog-glottolog-d9da5e2">Glottolog glottolog-glottolog-d9da5e2</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/7c0b6ae3">Concepticon v3.1.0-19-g7c0b6ae3</a></li><li><a href="cldf-clts-clts-6dc73af">CLTS cldf-clts-clts-6dc73af</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:complexico/mentawai-word-list-1853/tree/1e036fa">git@github.com:complexico/mentawai-word-list-1853 1e036fa</a></li><li><a href="glottolog-glottolog-d9da5e2">Glottolog glottolog-glottolog-d9da5e2</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/7c0b6ae3">Concepticon v3.1.0-19-g7c0b6ae3</a></li><li><a href="cldf-clts-clts-6dc73af">CLTS cldf-clts-clts-6dc73af</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | barrier-islands-mentawai-wlist1853
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
