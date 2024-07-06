@@ -1,9 +1,5 @@
 # CLDF dataset derived from von Rosenberg's "De Mentawei-Eilanden en Hunne Bewoners" from 1853
 
-<!-- badges: start -->
-[![CLDF validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation)
-<!-- badges: end -->
-
 ## How to cite
 
 If you use these data please cite
@@ -24,7 +20,7 @@ Based on the [Rights Statement](https://www.digitale-sammlungen.de/en/details/bs
 
 Before the CLDF conversion using Python, the materials in this repository (inside the [data](https://github.com/complexico/mentawai-word-list-1853/tree/main/data) directory) were processed using R as an RStudio project (the R scripts are in the [codes](https://github.com/complexico/mentawai-word-list-1853/tree/main/codes) directory). The English gloss of the Dutch was generated via the DeepL translator using the [`deeplr` R package](https://cran.r-project.org/package=deeplr).
 
-As a long-time R user, the motivation to produce this repository is as a practice to get started with the [`cldfbench`](https://pypi.org/project/cldfbench/) workflow in Python to implement the Cross-Linguistic Data Format ([CLDF](https://cldf.clld.org)) that I would like to apply and extend to my [lexical resources project for Enggano](https://gtr.ukri.org/projects?ref=AH%2FW007290%2F1). The other motivation is to (i) document this legacy data in a computer-readable format, (ii) enrich its content following the CLDF standard, and (iii) contribute to an on-going [research on the languages of the Barrier Islands, in Sumatra, Indonesia](https://www.indonesianlanguages.org/home/barrier-islands-languages/), extending the [Enggano language project](https://enggano.ling-phil.ox.ac.uk).
+As a long-time R user, the motivation to produce this repository is as a practice to get started with the [`cldfbench`](https://pypi.org/project/cldfbench/) workflow in Python to implement the Cross-Linguistic Data Format ([CLDF](https://cldf.clld.org)) that I would like to apply and extend to the [Enggano lexical resources project](https://gtr.ukri.org/projects?ref=AH%2FW007290%2F1) I have been part of. The other motivation is to (i) document this legacy data in a computer-readable format, (ii) enrich its content following the CLDF standard, and (iii) contribute to an on-going [research on the languages of the Barrier Islands, in Sumatra, Indonesia](https://www.indonesianlanguages.org/home/barrier-islands-languages/), extending the [Enggano language project](https://enggano.ling-phil.ox.ac.uk).
 
 
 ## Statistics
@@ -50,7 +46,7 @@ As a long-time R user, the motivation to produce this repository is as a practic
 
 Name                 | GitHub user     | Description                          | Role
 ---                  | ---             | ---                                  | ---
-Gede Primahadi W. Rajeg       | @gederajeg       | digitisation, code, CLDF conversion, Concepticon mapping, Orthography profiling                           | Maintainer
+Gede Primahadi W. Rajeg       | @gederajeg       | Digitisation <br>Code <br>CLDF conversion <br>Concepticon mapping <br>Orthography profiling                           | Maintainer
 
 
 
