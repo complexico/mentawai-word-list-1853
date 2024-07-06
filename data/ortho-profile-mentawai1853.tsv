@@ -10,9 +10,9 @@ Left	Grapheme	Right	Class	Replacement	Phoneme	Source	Frequency	Codepoint	Unicode
 	dj			j	d͡ʒ				
 	ie			i	i	https://en.wikipedia.org/wiki/Dutch_orthography			
 	ng			ng	ŋ				
-	 			 			5	U+0020	SPACE
-	\-			-			4	U+002D	HYPHEN-MINUS
-	\,			,			2	U+002C	COMMA
+	 			 	 		5	U+0020	SPACE
+	\-			-	-		4	U+002D	HYPHEN-MINUS
+	\,			,	,		2	U+002C	COMMA
 	a			a	a		269	U+0061	LATIN SMALL LETTER A
 	b			b	b		102	U+0062	LATIN SMALL LETTER B
 	c			c	t͡ʒ		6	U+0063	LATIN SMALL LETTER C

@@ -71,6 +71,32 @@ mentawai1853 |>
 #                          info = TRUE,
 #                          file.out = "data/ortho-profile-mentawai1853.tsv")
 
+# for CLDF etc folder to include the orthography profile
+## assumming we already have the IPA match of the grapheme as well! AND the `etc` folder exists
+# if (dir.exists("etc")) {
+#   
+#   message("The `etc` directory exists.")
+#   read_tsv("data/ortho-profile-mentawai1853.tsv") |> 
+#     # select(Grapheme = Replacement, IPA = Phoneme) |> 
+#     # mutate(across(where(is.character), ~replace_na(., " "))) |> 
+#     # distinct() |> 
+#     mutate(Grapheme = if_else(!is.na(Right),
+#                               paste(Grapheme, Right, sep = ""),
+#                               Grapheme),
+#            Grapheme = if_else(!is.na(Left),
+#                               paste(Left, Grapheme, sep = ""),
+#                               Grapheme)) |> 
+#     select(Grapheme, IPA = Phoneme) |> 
+#     mutate(across(where(is.character), ~replace_na(., " "))) |>
+#     write_tsv("etc/orthography.tsv", na = "")
+#   message("Save the orthography profile into `etc`.")
+#   
+# } else {
+#   
+#   warning("No `etc` directory is detected! Create one.")
+#   
+# } # further manual editing directly in the `etc` directory inside the orthography.tsv
+
 ortho <- qlcData::tokenize(mentawai1853$Mentawai,
                            profile = "data/ortho-profile-mentawai1853.tsv",
                            transliterate = "Replacement",
@@ -81,7 +107,10 @@ ortho$strings <- ortho$strings |>
   rename(Mentawai = originals,
          Commons = transliterated) |> 
   as_tibble() |> 
-  mutate(ID = mentawai1853$ID)
+  mutate(ID = mentawai1853$ID) |> 
+  # add the non-tokenised common transcription
+  mutate(CommonsNotSegmented = str_replace_all(Commons, " ", ""),
+         CommonsNotSegmented = str_replace_all(CommonsNotSegmented, "_", " "))
 ipa <- qlcData::tokenize(mentawai1853$Mentawai,
                            profile = "data/ortho-profile-mentawai1853.tsv",
                            transliterate = "Phoneme",
@@ -92,7 +121,10 @@ ipa$strings <- ipa$strings |>
   rename(Mentawai = originals,
          IPA = transliterated) |> 
   as_tibble() |> 
-  mutate(ID = mentawai1853$ID)
+  mutate(ID = mentawai1853$ID) |> 
+  # add the non-tokenised IPA transcription
+  mutate(IPAnotSegmented = str_replace_all(IPA, " ", ""),
+         IPAnotSegmented = str_replace_all(IPAnotSegmented, "_", " "))
 
 mentawai1853 <- mentawai1853 |> 
   left_join(ortho$strings |> 
@@ -101,7 +133,7 @@ mentawai1853 <- mentawai1853 |>
   left_join(ipa$strings |> 
               select(-tokenized, -Mentawai),
             by = join_by(ID)) |> 
-  select(ID, Mentawai, Commons, IPA, Dutch, English, everything()) |> 
+  select(ID, Mentawai, Commons, CommonsNotSegmented, IPA, IPAnotSegmented, Dutch, English, everything()) |> 
   
   # add the doculect for the CLDF purpose
   mutate(Doculect = "Mentawai")
@@ -111,6 +143,11 @@ mentawai1853 <- mentawai1853 |>
 mentawai1853 |> 
   filter(Category == "word list") |> 
   write_tsv("data/mentawai1853.tsv")
+## for CLDF raw directory
+mentawai1853 |> 
+  filter(Category == "word list") |> 
+  mutate(CONCEPTICON_ID = replace(CONCEPTICON_ID, CONCEPTICON_ID == 0, "")) |> 
+  write_tsv("raw/mentawai1853.tsv")
 mentawai1853 |> 
   filter(Category == "word list") |> 
   write_tsv("data/mentawai1853.rds")
