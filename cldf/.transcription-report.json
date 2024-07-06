@@ -2,11 +2,9 @@
     "by_language": {
         "Mentawai": {
             "bipa_errors": [
-                "t\u0361\u0292",
-                "<<\u00eb>>",
                 "<<->>"
             ],
-            "general_errors": 18,
+            "general_errors": 4,
             "replacements": {
                 "+": [
                     "+"
@@ -20,11 +18,20 @@
                 "b": [
                     "b"
                 ],
+                "c": [
+                    "c"
+                ],
                 "d": [
                     "d"
                 ],
                 "d\u0361\u0292": [
                     "d\u0292"
+                ],
+                "e": [
+                    "e"
+                ],
+                "ei\u032f": [
+                    "ei\u032f"
                 ],
                 "f": [
                     "f"
@@ -83,12 +90,6 @@
                 "\u014b": [
                     "\u014b"
                 ],
-                "\u025b": [
-                    "\u025b"
-                ],
-                "\u025bi\u032f": [
-                    "\u025bi\u032f"
-                ],
                 "\u0261": [
                     "g"
                 ],
@@ -100,19 +101,19 @@
                 ]
             },
             "sclass_errors": [
-                "t\u0361\u0292",
-                "<<\u00eb>>",
                 "<<->>"
             ],
             "segments": {
                 "+": 1,
                 "<<->>": 4,
-                "<<\u00eb>>": 2,
                 "a": 227,
                 "a\u02d0i\u032f": 1,
                 "b": 94,
+                "c": 12,
                 "d": 13,
                 "d\u0361\u0292": 5,
+                "e": 158,
+                "ei\u032f": 20,
                 "f": 1,
                 "h": 29,
                 "i": 100,
@@ -128,13 +129,10 @@
                 "s": 39,
                 "t": 100,
                 "t\u0283": 2,
-                "t\u0361\u0292": 12,
                 "u": 128,
                 "ui\u032f": 2,
                 "w": 7,
                 "\u014b": 30,
-                "\u025b": 156,
-                "\u025bi\u032f": 20,
                 "\u0261": 42,
                 "\u0283": 3,
                 "\u0294": 22
@@ -144,53 +142,11 @@
     "stats": {
         "bad_words": [
             [
-                "Mentawai-138_copper-1",
-                "Mentawai",
-                "138_copper",
-                "latjo",
-                "l a <s> t\u0361\u0292 </s> o"
-            ],
-            [
-                "Mentawai-155_sirie-1",
-                "Mentawai",
-                "155_sirie",
-                "tjabbei",
-                "<s> t\u0361\u0292 </s> a b b \u025b i"
-            ],
-            [
                 "Mentawai-16_laugh-1",
                 "Mentawai",
                 "16_laugh",
                 "gah-gah",
                 "\u0261 a h <s> <<->> </s> \u0261 a \u0294"
-            ],
-            [
-                "Mentawai-180_deer-1",
-                "Mentawai",
-                "180_deer",
-                "tjetje",
-                "<s> t\u0361\u0292 </s> \u025b <s> t\u0361\u0292 </s> \u025b"
-            ],
-            [
-                "Mentawai-200_tooth-1",
-                "Mentawai",
-                "200_tooth",
-                "tschon",
-                "t\u0283 <s> t\u0361\u0292 </s> h o n"
-            ],
-            [
-                "Mentawai-21_cut-1",
-                "Mentawai",
-                "21_cut",
-                "tjatja",
-                "<s> t\u0361\u0292 </s> a <s> t\u0361\u0292 </s> a"
-            ],
-            [
-                "Mentawai-240_treeoil-1",
-                "Mentawai",
-                "240_treeoil",
-                "tschoi\u00eblakat",
-                "t\u0283 <s> t\u0361\u0292 </s> h o i <s> <<\u00eb>> </s> l a k a t"
             ],
             [
                 "Mentawai-249_scissors-1",
@@ -204,28 +160,7 @@
                 "Mentawai",
                 "45_regards",
                 "moele-moele",
-                "m u l \u025b <s> <<->> </s> m u l \u025b"
-            ],
-            [
-                "Mentawai-47_archery-1",
-                "Mentawai",
-                "47_archery",
-                "tjilagoeij",
-                "<s> t\u0361\u0292 </s> i l a \u0261 ui\u032f"
-            ],
-            [
-                "Mentawai-60_dead-1",
-                "Mentawai",
-                "60_dead",
-                "melotje",
-                "m \u025b l o <s> t\u0361\u0292 </s> \u025b"
-            ],
-            [
-                "Mentawai-72_deep-1",
-                "Mentawai",
-                "72_deep",
-                "ke\u00ebroe",
-                "k \u025b <s> <<\u00eb>> </s> r u"
+                "m u l e <s> <<->> </s> m u l e"
             ],
             [
                 "Mentawai-7_open-2",
@@ -233,32 +168,16 @@
                 "7_open",
                 "-boekakai",
                 "<s> <<->> </s> b u k a k a i"
-            ],
-            [
-                "Mentawai-91_enough-1",
-                "Mentawai",
-                "91_enough",
-                "tjeeget",
-                "<s> t\u0361\u0292 </s> \u025b \u025b \u0261 \u025b t"
-            ],
-            [
-                "Mentawai-92_notenough-1",
-                "Mentawai",
-                "92_notenough",
-                "tabettjeeget",
-                "t a b \u025b t <s> t\u0361\u0292 </s> \u025b \u025b \u0261 \u025b t"
             ]
         ],
-        "bad_words_count": 15,
+        "bad_words_count": 4,
         "bipa_errors": [
-            "t\u0361\u0292",
-            "<<\u00eb>>",
             "<<->>"
         ],
-        "general_errors": 18,
+        "general_errors": 4,
         "invalid_words": [],
         "invalid_words_count": 0,
-        "inventory_size": 33.0,
+        "inventory_size": 32.0,
         "replacements": {
             "+": [
                 "+"
@@ -272,11 +191,20 @@
             "b": [
                 "b"
             ],
+            "c": [
+                "c"
+            ],
             "d": [
                 "d"
             ],
             "d\u0361\u0292": [
                 "d\u0292"
+            ],
+            "e": [
+                "e"
+            ],
+            "ei\u032f": [
+                "ei\u032f"
             ],
             "f": [
                 "f"
@@ -335,12 +263,6 @@
             "\u014b": [
                 "\u014b"
             ],
-            "\u025b": [
-                "\u025b"
-            ],
-            "\u025bi\u032f": [
-                "\u025bi\u032f"
-            ],
             "\u0261": [
                 "g"
             ],
@@ -352,19 +274,19 @@
             ]
         },
         "sclass_errors": [
-            "t\u0361\u0292",
-            "<<\u00eb>>",
             "<<->>"
         ],
         "segments": {
             "+": 1,
             "<<->>": 4,
-            "<<\u00eb>>": 2,
             "a": 227,
             "a\u02d0i\u032f": 1,
             "b": 94,
+            "c": 12,
             "d": 13,
             "d\u0361\u0292": 5,
+            "e": 158,
+            "ei\u032f": 20,
             "f": 1,
             "h": 29,
             "i": 100,
@@ -380,13 +302,10 @@
             "s": 39,
             "t": 100,
             "t\u0283": 2,
-            "t\u0361\u0292": 12,
             "u": 128,
             "ui\u032f": 2,
             "w": 7,
             "\u014b": 30,
-            "\u025b": 156,
-            "\u025bi\u032f": 20,
             "\u0261": 42,
             "\u0283": 3,
             "\u0294": 22

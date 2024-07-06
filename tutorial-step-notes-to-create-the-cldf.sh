@@ -32,11 +32,17 @@ cp vrosenberg1853.bib raw/sources.bib
 ## we can copy from "data/mentawai-gloss-mapped-to-edit_1853_270.tsv"
 ## this file already has CONCEPTICON_GLOSS, CONCEPTICON_ID, GLOSS, and NUMBER, like the example in here: https://github.com/lexibank/sidwellvietic/blob/main/etc/concepts.tsv
 cp data/mentawai-gloss-mapped-to-edit_1853-270.tsv etc/concepts.tsv
-## IMPORTANT: ensure the name of column in sentence case.
+## IMPORTANT: ensure the name of column is in sentence case to match with the parameters in the .py CLDF conversion code
 
 # 10. create a language file in `etc` folder
 touch etc/languages.tsv
-nano etc/languages.tsv # add manually
+nano etc/languages.tsv # add manually (because for now it is only for one language)
+# The columns include: 
+# - ID (abbreviated label of the language OR number)
+# - Name (if possible, match this with the language name in Glottolog)
+# - Sources (match this with the BibTex key in the .bib file, and in the wordlist reference)
+# - Glottocode
+# - Glottolog_Name
 
 # check the content with tree.com (on Windows)
 tree.com //f etc 

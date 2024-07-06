@@ -31,8 +31,8 @@ Before the CLDF conversion using Python, the materials in this repository (insid
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 98%](https://img.shields.io/badge/Concepticon-98%25-green.svg "Concepticon: 98%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 91%](https://img.shields.io/badge/BIPA-91%25-green.svg "BIPA: 91%")
-![CLTS SoundClass: 91%](https://img.shields.io/badge/CLTS%20SoundClass-91%25-green.svg "CLTS SoundClass: 91%")
+![BIPA: 97%](https://img.shields.io/badge/BIPA-97%25-green.svg "BIPA: 97%")
+![CLTS SoundClass: 97%](https://img.shields.io/badge/CLTS%20SoundClass-97%25-green.svg "CLTS SoundClass: 97%")
 
 - **Varieties:** 1 (linked to 1 different Glottocodes)
 - **Concepts:** 267 (linked to 255 different Concepticon concept sets)
@@ -41,8 +41,8 @@ Before the CLDF conversion using Python, the materials in this repository (insid
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
 - **Tokens:** 1,578
-- **Segments:** 33 (3 BIPA errors, 3 CLTS sound class errors, 30 CLTS modified)
-- **Inventory size (avg):** 33.00
+- **Segments:** 32 (1 BIPA errors, 1 CLTS sound class errors, 31 CLTS modified)
+- **Inventory size (avg):** 32.00
 
 # Contributors
 
