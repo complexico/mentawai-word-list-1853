@@ -1,5 +1,9 @@
 # CLDF dataset derived from von Rosenberg's "De Mentawei-Eilanden en Hunne Bewoners" from 1853
 
+<!-- badges: start -->
+[![CLDF validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation)
+<!-- badges: end -->
+
 ## How to cite
 
 If you use these data please cite
