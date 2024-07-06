@@ -57,3 +57,19 @@ tree -v --charset utf-8
 
 # If we want to specify the optional arguments concepticon and clts, we need to prefix the makecldf with lexibank as lexibank.makecldf as in the following codes.
 cldfbench lexibank.makecldf cldfbench_barrier-islands-mentawai-wlist1853.py --glottolog "/Users/Primahadi/Documents/cldf_project/glottolog-glottolog-d9da5e2" --concepticon "/Users/Primahadi/Documents/cldf_project/concepticon/concepticon-data" --clts "/Users/Primahadi/Documents/cldf_project/cldf-clts-clts-6dc73af"
+
+# to create an orthography profile (with a guess to possible IPA form/phoneme) from the Form col. in cldf/forms.csv using pylexibank (cf. List (2021: section 6)): https://calc.hypotheses.org/2954
+cldfbench lexibank.init_profile cldfbench_barrier-islands-mentawai-wlist1853.py --clts "/Users/Primahadi/Documents/cldf_project/cldf-clts-clts-6dc73af"
+
+## note on orthography workflow
+- # we could add an orthography profile file (orthography.tsv) in `etc` directory that we previously created using qlcData and manually edited (## ensure we already have the IPA match of the grapheme as well!)
+- # the file must contain column names in this order and in this exact case: Grapheme | IPA | Frequence | Codepoints (the Grapheme can be taken from the Replacement column in the original, qlcData-based orthography profile)
+- # then run the CLDF conversion again
+- # However, there can be issues:
+
+    # - If we take the Grapheme column from the common transcription (which is used in the Form of forms.csv), there can be duplicated Graphemes but supposedly for different IPA (e.g., the Dutch "sch" is transform into common orthography "s" but with IPA /ʃ/; meanwhile, the regular "s" gets IPA /s/).
+    # - Solution 1: the Grapheme in orthography can be based on the original transcription matched with the possible IPA (so APPARENTLY THE CONTEXTUAL REPLACEMENT CAN BE HANDLED AS A REGEX STRING IN THE GRAPHEME column)
+    # - Solution 2: use the args.writer.add_form_with_segments to add both the original, common transcription, and IPA transcription (BUT the raw data needs to be split when a cell has multiple forms!)
+    # - Solution 3 (following Solution 1): check if we can add a costume column name to add the common transcription
+    # - Solution 4 (following Solution 1): the contextual replacement (in the original orthography) perhaps need to be spelt out individually as a separate line in the Grapheme section
+    

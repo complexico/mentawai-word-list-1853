@@ -13,22 +13,13 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.digitale-sammlungen.de/en/view/bsb10433845?page=450,451
 [dc:license](http://purl.org/dc/terms/license) | CC-BY-NC-SA 4.0
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:complexico/mentawai-word-list-1853
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:complexico/mentawai-word-list-1853/tree/98a7638">git@github.com:complexico/mentawai-word-list-1853 98a7638</a></li><li><a href="glottolog-glottolog-d9da5e2">Glottolog glottolog-glottolog-d9da5e2</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/7c0b6ae3">Concepticon v3.1.0-19-g7c0b6ae3</a></li><li><a href="cldf-clts-clts-6dc73af">CLTS cldf-clts-clts-6dc73af</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:complexico/mentawai-word-list-1853/tree/532c81e">git@github.com:complexico/mentawai-word-list-1853 532c81e</a></li><li><a href="glottolog-glottolog-d9da5e2">Glottolog glottolog-glottolog-d9da5e2</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/7c0b6ae3">Concepticon v3.1.0-19-g7c0b6ae3</a></li><li><a href="cldf-clts-clts-6dc73af">CLTS cldf-clts-clts-6dc73af</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | barrier-islands-mentawai-wlist1853
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-formscsv"></a>Table [forms.csv](./forms.csv)
-
-
-Raw lexical data item as it can be pulled out of the original datasets.
-
-This is the basis for creating rows in CLDF representations of the data by
-- splitting the lexical item into forms
-- cleaning the forms
-- potentially tokenizing the form
-
 
 property | value
  --- | ---
@@ -53,6 +44,7 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
+`CommonTranscription` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 

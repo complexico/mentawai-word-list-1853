@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:complexico/mentawai-word-list-1853",
             "rdf:type": "prov:Entity",
-            "dc:created": "98a7638",
+            "dc:created": "532c81e",
             "dc:title": "Repository"
         },
         {
@@ -55,7 +55,6 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
             "dc:extent": 271,
             "tableSchema": {
                 "columns": [
@@ -125,6 +124,10 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CommonTranscription"
                     }
                 ],
                 "foreignKeys": [

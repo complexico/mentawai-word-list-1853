@@ -10,13 +10,17 @@ import re
 
 import attr
 from clldutils.misc import slug
-from pylexibank import Language, FormSpec, Concept
+from pylexibank import Language, FormSpec, Concept, Lexeme
 from pylexibank.dataset import Dataset as BaseDataset
 # from pylexibank.util import progressbar
 
 @attr.s
 class CustomLanguage(Language):
     Sources = attr.ib(default=None)
+
+@attr.s
+class CustomLexeme(Lexeme): # to add custom column into forms.csv (looking at Barlow, Russell & Don Killian. 2023. CLDF dataset derived from Barlow and Killian’s "Tomoip Wordlist" from 2023. Zenodo. https://doi.org/10.5281/zenodo.8437515.)
+    CommonTranscription = attr.ib(default=None)
 
 @attr.s
 class CustomConcept(Concept):
@@ -28,7 +32,11 @@ class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "barrier-islands-mentawai-wlist1853"
     language_class = CustomLanguage
+    lexeme_class = CustomLexeme # to add custom column into forms.csv (looking at Barlow, Russell & Don Killian. 2023. CLDF dataset derived from Barlow and Killian’s "Tomoip Wordlist" from 2023. Zenodo. https://doi.org/10.5281/zenodo.8437515.)
     # form_spec = FormSpec(missing_data=["∅", "#", "NA", 'XX', '*#', '<NA>'], normalize_unicode="NFC")
+    
+    # the separators here by default works when the args.writer.add_forms_from_value() is used (i.e., the Form is automatically split in terms of the separators specified here)
+    # however, the separators do not seem to work to split multi-form cell of forms when args.writer.add_form_from_segments() is used.
     form_spec = FormSpec(normalize_unicode="NFC", separators = ",")
     concept_class = CustomConcept
 
@@ -111,6 +119,7 @@ class Dataset(BaseDataset):
 
         for idx, row in enumerate(self.raw_dir.read_csv(
             "mentawai1853.tsv", delimiter="\t", dicts=True)):
+            #args.writer.add_form_with_segments( # this add_form_with_segments() is used when to include the Segments info from the raw data (this function also requires explicit statement of the addition of the Form variable). But, args.writer.add_forms_from_value is used when we can ignore the Segments variable
             args.writer.add_forms_from_value(
                 Local_ID=row["ID"],
                 Language_ID=row["Doculect"],
@@ -119,7 +128,11 @@ class Dataset(BaseDataset):
                 #   That is, we cannot have CONCEPTICON_ID of NA (in raw/main data) but empty in Concepts.tsv data.
                 #   If that is the case, it will throw KeyError such as `KeyError: ('this and that', 'NA')` (in this case, the function found this key: 'this and that', 'NA' in the raw/main data but in the concepts dictionary, it is 'this and that', '', which is different!)
                 Parameter_ID=concepts[row["English"], row["CONCEPTICON_ID"]], 
-                Value=row["Commons"],
+                CommonTranscription=row["CommonsNotSegmented"], # this column takes the non-tokenised common transcription
+                Value=row["Mentawai"], # this column takes the original transcription
+                #Value=row["Mentawai"], # specify this line for the Value col. explicitly when args.writer.add_form_with_segments() is used
+                #Form=row["CommonsNotSegmented"], # specify this line for the Segments col. explicitly when args.writer.add_form_with_segments() is used
+                #Segments=list(row["IPA"]), # specify this line for the Segments col. explicitly when args.writer.add_form_with_segments() is used; the Segments column needs a list (not string), that is why we use the list() function
                 Source="VonRosenberg1853")
     # def cmd_makecldf(self, args):
 
