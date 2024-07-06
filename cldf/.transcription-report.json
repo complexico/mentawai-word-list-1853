@@ -1,10 +1,8 @@
 {
     "by_language": {
         "Mentawai": {
-            "bipa_errors": [
-                "<<->>"
-            ],
-            "general_errors": 4,
+            "bipa_errors": [],
+            "general_errors": 0,
             "replacements": {
                 "+": [
                     "+"
@@ -100,22 +98,19 @@
                     "\u0294"
                 ]
             },
-            "sclass_errors": [
-                "<<->>"
-            ],
+            "sclass_errors": [],
             "segments": {
-                "+": 1,
-                "<<->>": 4,
+                "+": 4,
                 "a": 227,
                 "a\u02d0i\u032f": 1,
                 "b": 94,
-                "c": 12,
+                "c": 10,
                 "d": 13,
                 "d\u0361\u0292": 5,
                 "e": 158,
                 "ei\u032f": 20,
                 "f": 1,
-                "h": 29,
+                "h": 27,
                 "i": 100,
                 "j": 13,
                 "k": 97,
@@ -135,49 +130,18 @@
                 "\u014b": 30,
                 "\u0261": 42,
                 "\u0283": 3,
-                "\u0294": 22
+                "\u0294": 24
             }
         }
     },
     "stats": {
-        "bad_words": [
-            [
-                "Mentawai-16_laugh-1",
-                "Mentawai",
-                "16_laugh",
-                "gah-gah",
-                "\u0261 a h <s> <<->> </s> \u0261 a \u0294"
-            ],
-            [
-                "Mentawai-249_scissors-1",
-                "Mentawai",
-                "249_scissors",
-                "nab-nab",
-                "n a b <s> <<->> </s> n a b"
-            ],
-            [
-                "Mentawai-45_regards-1",
-                "Mentawai",
-                "45_regards",
-                "moele-moele",
-                "m u l e <s> <<->> </s> m u l e"
-            ],
-            [
-                "Mentawai-7_open-2",
-                "Mentawai",
-                "7_open",
-                "-boekakai",
-                "<s> <<->> </s> b u k a k a i"
-            ]
-        ],
-        "bad_words_count": 4,
-        "bipa_errors": [
-            "<<->>"
-        ],
-        "general_errors": 4,
+        "bad_words": [],
+        "bad_words_count": 0,
+        "bipa_errors": [],
+        "general_errors": 0,
         "invalid_words": [],
         "invalid_words_count": 0,
-        "inventory_size": 32.0,
+        "inventory_size": 31.0,
         "replacements": {
             "+": [
                 "+"
@@ -273,22 +237,19 @@
                 "\u0294"
             ]
         },
-        "sclass_errors": [
-            "<<->>"
-        ],
+        "sclass_errors": [],
         "segments": {
-            "+": 1,
-            "<<->>": 4,
+            "+": 4,
             "a": 227,
             "a\u02d0i\u032f": 1,
             "b": 94,
-            "c": 12,
+            "c": 10,
             "d": 13,
             "d\u0361\u0292": 5,
             "e": 158,
             "ei\u032f": 20,
             "f": 1,
-            "h": 29,
+            "h": 27,
             "i": 100,
             "j": 13,
             "k": 97,
@@ -308,7 +269,7 @@
             "\u014b": 30,
             "\u0261": 42,
             "\u0283": 3,
-            "\u0294": 22
+            "\u0294": 24
         }
     }
 }

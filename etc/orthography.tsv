@@ -2,28 +2,28 @@ Grapheme	IPA	Comment
 oeij	ui̯	
 aij	aːi̯	
 sch	ʃ	
+^tsch	tʃ	
 oij$	oːi̯	
 eij	ei̯	attempting to adjust with CLTS Bipa
 oe	u	
-^ts	tʃ	
 tj	c	
 dj	d͡ʒ	
 ie	i	
 ng	ŋ	
  	 	
-\-	-	
+-	+	Based on here: https://github.com/lexibank/bantubvd/blob/v4.0/etc/orthography.tsv 
+^-	NULL	Based on here: https://github.com/lexibank/bantubvd/blob/v4.0/etc/orthography.tsv 
 \,	,	
 a	a	
 b	b	
 c	c	attempting to adjust with CLTS Bipa
 d	d	
 e	e	attempting to adjust with CLTS Bipa
-i(?=ë)	iˀ	attempting to adjust with CLTS Bipa
-a(?=ë)	aˀ	attempting to adjust with CLTS Bipa
-u(?=ë)	uˀ	attempting to adjust with CLTS Bipa
-e(?=ë)	eˀ	attempting to adjust with CLTS Bipa
-o(?=ë)	oˀ	attempting to adjust with CLTS Bipa
-ë	e	attempting to adjust with CLTS Bipa
+ië	i ʔ e	attempting to adjust with CLTS Bipa: inspired by how the string sequence is handled here: https://github.com/lexibank/bantubvd/blob/v4.0/etc/orthography.tsv
+aë	a ʔ e	attempting to adjust with CLTS Bipa
+uë	u ʔ e	attempting to adjust with CLTS Bipa
+eë	e ʔ e	attempting to adjust with CLTS Bipa
+oë	o ʔ e	attempting to adjust with CLTS Bipa
 f	f	
 g	ɡ	
 h(?=[tnjgb-])	ʔ	

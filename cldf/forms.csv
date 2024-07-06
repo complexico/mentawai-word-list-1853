@@ -6,7 +6,7 @@ Mentawai-4_sit-1,4,Mentawai,4_sit,koeddoe,koeddoe,k u d d u,,VonRosenberg1853,,,
 Mentawai-5_come-1,5,Mentawai,5_come,kepanoebara,kepanoebara,k e p a n u b a r a,,VonRosenberg1853,,,^ k e p a n oe b a r a $,default,kepanubara
 Mentawai-6_stay-1,6,Mentawai,6_stay,gala,gala,ɡ a l a,,VonRosenberg1853,,,^ g a l a $,default,gala
 Mentawai-7_open-1,7,Mentawai,7_open,"roekoetnake , -boekakai",roekoetnake,r u k u t n a k e,,VonRosenberg1853,,,^ r oe k oe t n a k e $,default,"rukutnake , -bukakai"
-Mentawai-7_open-2,7,Mentawai,7_open,"roekoetnake , -boekakai",-boekakai,<<->> b u k a k a i,,VonRosenberg1853,,,^ <-> b oe k a k a i $,default,"rukutnake , -bukakai"
+Mentawai-7_open-2,7,Mentawai,7_open,"roekoetnake , -boekakai",-boekakai,b u k a k a i,,VonRosenberg1853,,,^- b oe k a k a i $,default,"rukutnake , -bukakai"
 Mentawai-8_give-1,8,Mentawai,8_give,"kau , aketkako",kau,k a u,,VonRosenberg1853,,,^ k a u $,default,"kau , aketkako"
 Mentawai-8_give-2,8,Mentawai,8_give,"kau , aketkako",aketkako,a k e t k a k o,,VonRosenberg1853,,,^ a k e t k a k o $,default,"kau , aketkako"
 Mentawai-271_gift-1,9,Mentawai,271_gift,poengroeat,poengroeat,p u ŋ r u a t,,VonRosenberg1853,,,^ p oe ng r oe a t $,default,pungruat
@@ -17,7 +17,7 @@ Mentawai-12_see-1,13,Mentawai,12_see,djo,djo,d͡ʒ o,,VonRosenberg1853,,,^ dj o 
 Mentawai-13_make-1,14,Mentawai,13_make,galeij,galeij,ɡ a l ei̯,,VonRosenberg1853,,,^ g a l eij $,default,gale:i
 Mentawai-14_search-1,15,Mentawai,14_search,gaba,gaba,ɡ a b a,,VonRosenberg1853,,,^ g a b a $,default,gaba
 Mentawai-15_speak-1,16,Mentawai,15_speak,tibboi,tibboi,t i b b o i,,VonRosenberg1853,,,^ t i b b o i $,default,tibboi
-Mentawai-16_laugh-1,17,Mentawai,16_laugh,gah-gah,gah-gah,ɡ a h <<->> ɡ a ʔ,,VonRosenberg1853,,,^ g a h <-> g a h$,default,ga'-ga'
+Mentawai-16_laugh-1,17,Mentawai,16_laugh,gah-gah,gah-gah,ɡ a h + ɡ a ʔ,,VonRosenberg1853,,,^ g a h - g a h$,default,ga'-ga'
 Mentawai-17_cry-1,18,Mentawai,17_cry,mso,mso,m s o,,VonRosenberg1853,,,^ m s o $,default,mso
 Mentawai-18_food-1,19,Mentawai,18_food,mokkom,mokkom,m o k k o m,,VonRosenberg1853,,,^ m o k k o m $,default,mokkom
 Mentawai-19_drink-1,20,Mentawai,19_drink,lo,lo,l o,,VonRosenberg1853,,,^ l o $,default,lo
@@ -46,7 +46,7 @@ Mentawai-41_thinking-1,42,Mentawai,41_thinking,goeaba,goeaba,ɡ u a b a,,VonRose
 Mentawai-42_smell-1,43,Mentawai,42_smell,idoe,idoe,i d u,,VonRosenberg1853,,,^ i d oe $,default,idu
 Mentawai-43_bind-1,44,Mentawai,43_bind,abara,abara,a b a r a,,VonRosenberg1853,,,^ a b a r a $,default,abara
 Mentawai-44_marrying-1,45,Mentawai,44_marrying,melija,melija,m e l i j a,,VonRosenberg1853,,,^ m e l i j a $,default,meliya
-Mentawai-45_regards-1,46,Mentawai,45_regards,moele-moele,moele-moele,m u l e <<->> m u l e,,VonRosenberg1853,,,^ m oe l e <-> m oe l e $,default,mule-mule
+Mentawai-45_regards-1,46,Mentawai,45_regards,moele-moele,moele-moele,m u l e + m u l e,,VonRosenberg1853,,,^ m oe l e - m oe l e $,default,mule-mule
 Mentawai-46_swimming-1,47,Mentawai,46_swimming,melala,melala,m e l a l a,,VonRosenberg1853,,,^ m e l a l a $,default,melala
 Mentawai-47_archery-1,48,Mentawai,47_archery,tjilagoeij,tjilagoeij,c i l a ɡ ui̯,,VonRosenberg1853,,,^ tj i l a g oeij $,default,cilagu:i
 Mentawai-48_dance-1,49,Mentawai,48_dance,simaliet,simaliet,s i m a l i t,,VonRosenberg1853,,,^ s i m a l ie t $,default,simalit
@@ -73,7 +73,7 @@ Mentawai-68_lying-1,69,Mentawai,68_lying,menangka,menangka,m e n a ŋ k a,,VonRo
 Mentawai-69_wide-1,70,Mentawai,69_wide,alia,alia,a l i a,,VonRosenberg1853,,,^ a l i a $,default,alia
 Mentawai-70_high-1,71,Mentawai,70_high,naboeak,naboeak,n a b u a k,,VonRosenberg1853,,,^ n a b oe a k $,default,nabuak
 Mentawai-71_low-1,72,Mentawai,71_low,metaleb,metaleb,m e t a l e b,,VonRosenberg1853,,,^ m e t a l e b $,default,metaleb
-Mentawai-72_deep-1,73,Mentawai,72_deep,keëroe,keëroe,k e e r u,,VonRosenberg1853,,,^ k e ë r oe $,default,ke'eru
+Mentawai-72_deep-1,73,Mentawai,72_deep,keëroe,keëroe,k e ʔ e r u,,VonRosenberg1853,,,^ k eë r oe $,default,ke'eru
 Mentawai-73_fine-1,74,Mentawai,73_fine,meninim,meninim,m e n i n i m,,VonRosenberg1853,,,^ m e n i n i m $,default,meninim
 Mentawai-74_coarse-1,75,Mentawai,74_coarse,mkabejoean,mkabejoean,m k a b e j u a n,,VonRosenberg1853,,,^ m k a b e j oe a n $,default,mkabeyuan
 Mentawai-75_clean-1,76,Mentawai,75_clean,mehroe,mehroe,m e h r u,,VonRosenberg1853,,,^ m e h r oe $,default,mehru
@@ -201,7 +201,7 @@ Mentawai-196_forehead-1,197,Mentawai,196_forehead,boekkoe,boekkoe,b u k k u,,Von
 Mentawai-197_eyes-1,198,Mentawai,197_eyes,mata,mata,m a t a,,VonRosenberg1853,,,^ m a t a $,default,mata
 Mentawai-198_mouth-1,199,Mentawai,198_mouth,ngoengoe,ngoengoe,ŋ u ŋ u,,VonRosenberg1853,,,^ ng oe ng oe $,default,ngungu
 Mentawai-199_ear-1,200,Mentawai,199_ear,gigie,gigie,ɡ i ɡ i,,VonRosenberg1853,,,^ g i g ie $,default,gigi
-Mentawai-200_tooth-1,201,Mentawai,200_tooth,tschon,tschon,tʃ c h o n,,VonRosenberg1853,,,^ts c h o n $,default,tson
+Mentawai-200_tooth-1,201,Mentawai,200_tooth,tschon,tschon,tʃ o n,,VonRosenberg1853,,,^tsch o n $,default,tson
 Mentawai-201_tongue-1,202,Mentawai,201_tongue,lilah,lilah,l i l a ʔ,,VonRosenberg1853,,,^ l i l a h$,default,lila'
 Mentawai-202_neck-1,203,Mentawai,202_neck,ellokot,ellokot,e l l o k o t,,VonRosenberg1853,,,^ e l l o k o t $,default,ellokot
 Mentawai-203_chest-1,204,Mentawai,203_chest,topot,topot,t o p o t,,VonRosenberg1853,,,^ t o p o t $,default,topot
@@ -241,7 +241,7 @@ Mentawai-236_village-1,237,Mentawai,236_village,lakkei,lakkei,l a k k e i,,VonRo
 Mentawai-237_roof-1,238,Mentawai,237_roof,tobat,tobat,t o b a t,,VonRosenberg1853,,,^ t o b a t $,default,tobat
 Mentawai-238_devil-1,239,Mentawai,238_devil,sinetoe,sinetoe,s i n e t u,,VonRosenberg1853,,,^ s i n e t oe $,default,sinetu
 Mentawai-239_birdglue-1,240,Mentawai,239_birdglue,eket,eket,e k e t,,VonRosenberg1853,,,^ e k e t $,default,eket
-Mentawai-240_treeoil-1,241,Mentawai,240_treeoil,tschoiëlakat,tschoiëlakat,tʃ c h o i e l a k a t,,VonRosenberg1853,,,^ts c h o i ë l a k a t $,default,tsoi'elakat
+Mentawai-240_treeoil-1,241,Mentawai,240_treeoil,tschoiëlakat,tschoiëlakat,tʃ o i ʔ e l a k a t,,VonRosenberg1853,,,^tsch o ië l a k a t $,default,tsoi'elakat
 Mentawai-241_arrowpoison-1,242,Mentawai,241_arrowpoison,ipoe,ipoe,i p u,,VonRosenberg1853,,,^ i p oe $,default,ipu
 Mentawai-242_copperwire-1,243,Mentawai,242_copperwire,dakdjok,dakdjok,d a k d͡ʒ o k,,VonRosenberg1853,,,^ d a k dj o k $,default,dakjok
 Mentawai-243_tin-1,244,Mentawai,243_tin,boelan,boelan,b u l a n,,VonRosenberg1853,,,^ b oe l a n $,default,bulan
@@ -250,7 +250,7 @@ Mentawai-245_tobacco-1,246,Mentawai,245_tobacco,obeh,obeh,o b e ʔ,,VonRosenberg
 Mentawai-246_mirror-1,247,Mentawai,246_mirror,blikobat,blikobat,b l i k o b a t,,VonRosenberg1853,,,^ b l i k o b a t $,default,blikobat
 Mentawai-247_cotton-1,248,Mentawai,247_cotton,komang,komang,k o m a ŋ,,VonRosenberg1853,,,^ k o m a ng $,default,komang
 Mentawai-248_glassbeads-1,249,Mentawai,248_glassbeads,inoe,inoe,i n u,,VonRosenberg1853,,,^ i n oe $,default,inu
-Mentawai-249_scissors-1,250,Mentawai,249_scissors,nab-nab,nab-nab,n a b <<->> n a b,,VonRosenberg1853,,,^ n a b <-> n a b $,default,nab-nab
+Mentawai-249_scissors-1,250,Mentawai,249_scissors,nab-nab,nab-nab,n a b + n a b,,VonRosenberg1853,,,^ n a b - n a b $,default,nab-nab
 Mentawai-250_needle-1,251,Mentawai,250_needle,pingolab,pingolab,p i ŋ o l a b,,VonRosenberg1853,,,^ p i ng o l a b $,default,pingolab
 Mentawai-203_chest-2,252,Mentawai,203_chest,petie,petie,p e t i,,VonRosenberg1853,,,^ p e t ie $,default,peti
 Mentawai-251_axe-1,253,Mentawai,251_axe,bliok,bliok,b l i o k,,VonRosenberg1853,,,^ b l i o k $,default,bliok

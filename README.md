@@ -1,9 +1,5 @@
 # CLDF dataset derived from von Rosenberg's "De Mentawei-Eilanden en Hunne Bewoners" from 1853
 
-<!-- badges: start -->
-[![CLDF validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation)
-<!-- badges: end -->
-
 ## How to cite
 
 If you use these data please cite
@@ -33,8 +29,8 @@ As a long-time R user, the motivation to produce this repository is as a practic
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 98%](https://img.shields.io/badge/Concepticon-98%25-green.svg "Concepticon: 98%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 97%](https://img.shields.io/badge/BIPA-97%25-green.svg "BIPA: 97%")
-![CLTS SoundClass: 97%](https://img.shields.io/badge/CLTS%20SoundClass-97%25-green.svg "CLTS SoundClass: 97%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 1 (linked to 1 different Glottocodes)
 - **Concepts:** 267 (linked to 255 different Concepticon concept sets)
@@ -42,9 +38,9 @@ As a long-time R user, the motivation to produce this repository is as a practic
 - **Sources:** 1
 - **Synonymy:** 1.01
 - **Invalid lexemes:** 0
-- **Tokens:** 1,578
-- **Segments:** 32 (1 BIPA errors, 1 CLTS sound class errors, 31 CLTS modified)
-- **Inventory size (avg):** 32.00
+- **Tokens:** 1,575
+- **Segments:** 31 (0 BIPA errors, 0 CLTS sound class errors, 31 CLTS modified)
+- **Inventory size (avg):** 31.00
 
 # Contributors
 
