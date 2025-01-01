@@ -1,6 +1,8 @@
 # CLDF dataset derived from von Rosenberg's "De Mentawei-Eilanden en Hunne Bewoners" from 1853
 
 <!-- badges: start -->
+[![The University of Oxford](https://raw.githubusercontent.com/engganolang/digitised-holle-list/main/file-oxweb-logo.gif){width="84"}](https://www.ox.ac.uk/) [![Faculty of Linguistics, Philology and Phonetics, the University of Oxford](https://raw.githubusercontent.com/engganolang/digitised-holle-list/main/file-lingphil.png){width="83"}](https://www.ling-phil.ox.ac.uk/) [![Arts and Humanities Research Council (AHRC)](https://raw.githubusercontent.com/engganolang/digitised-holle-list/main/file-ahrc.png){width="325"}](https://www.ukri.org/councils/ahrc/) </br>*This work is part of the [AHRC-funded project](https://gtr.ukri.org/projects?ref=AH%2FW007290%2F1) on the lexical resources for Enggano, led by the Faculty of Linguistics, Philology and Phonetics at the University of Oxford, UK. Visit the [central webpage of the Enggano project](https://enggano.ling-phil.ox.ac.uk/)*.
+
 [![CLDF validation](https://github.com/complexico/mentawai-word-list-1853/workflows/CLDF-validation/badge.svg)](https://github.com/complexico/mentawai-word-list-1853/actions?query=workflow%3ACLDF-validation) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12672853.svg)](https://doi.org/10.5281/zenodo.12672853)
 <!-- badges: end -->
 
